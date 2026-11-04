@@ -1,0 +1,17 @@
+experiment,comparison,quantity,original_committed,corrected,reason
+E14,ramp_up: coupled beta2=0.99 minus coupled beta2=0.999,p_paired_t_holm,0.7339670197892051,0.6566722826525151,Holm family recomputed after raw p-values changed
+E14,intermittent: coupled beta2=0.99 minus coupled beta2=0.999,p_paired_t_holm,0.7339670197892051,0.6387752757012057,Holm family recomputed after raw p-values changed
+E14,intermittent: coupled beta2=0.95 minus coupled beta2=0.999,n_pairs,3.0,4.0,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E14,intermittent: coupled beta2=0.95 minus coupled beta2=0.999,mean_difference_percentage_points,0.4673333333333418,0.438000000000005,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E14,intermittent: coupled beta2=0.95 minus coupled beta2=0.999,ci95_low,-0.0024071709383086,0.0005609760333964,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E14,intermittent: coupled beta2=0.95 minus coupled beta2=0.999,ci95_high,0.0117538376049754,0.0081990239666036,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E14,intermittent: coupled beta2=0.95 minus coupled beta2=0.999,p_paired_t_raw,0.1048524313984578,0.0354944193436811,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E14,intermittent: coupled beta2=0.95 minus coupled beta2=0.999,p_sign_flip_exact,0.25,0.125,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E14,intermittent: coupled beta2=0.95 minus coupled beta2=0.999,p_paired_t_holm,0.7339670197892051,0.2484609354057679,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E15,intermittent: decoupled beta2_noise=0.95 minus coupled beta2=0.95,n_pairs,3.0,4.0,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E15,intermittent: decoupled beta2_noise=0.95 minus coupled beta2=0.95,mean_difference_percentage_points,-0.1993333333333402,-0.2280000000000032,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E15,intermittent: decoupled beta2_noise=0.95 minus coupled beta2=0.95,ci95_low,-0.0083046729223118,-0.0057046434668157,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E15,intermittent: decoupled beta2_noise=0.95 minus coupled beta2=0.95,ci95_high,0.004318006255645,0.0011446434668157,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E15,intermittent: decoupled beta2_noise=0.95 minus coupled beta2=0.95,p_paired_t_raw,0.3071292991993794,0.1243293281861541,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E15,intermittent: decoupled beta2_noise=0.95 minus coupled beta2=0.95,p_sign_flip_exact,0.5,0.25,original table built with 3 of 4 paired seeds (seed 1 was truncated)
+E15,intermittent: decoupled beta2_noise=0.95 minus coupled beta2=0.95,p_paired_t_holm,1.0,0.6216466409307709,original table built with 3 of 4 paired seeds (seed 1 was truncated)

@@ -1,0 +1,27 @@
+$ /home/claude/venv/bin/python analyze_exp10.py --log-dirs /tmp/tmpylgq9w_3/e5adam/logs_exp05 /tmp/tmpylgq9w_3/e5adamnv/logs_exp05 /tmp/tmpylgq9w_3/e10A/logs_exp10_A /tmp/tmpylgq9w_3/e10B/logs_exp10_B
+(cwd=adam-nv/analysis)
+
+Seeds available: {'adam': [0, 1, 2, 3], 'adam_nv': [0, 1, 2, 3], 'adam_b083': [4, 5, 6, 7, 8, 9], 'adam_b080': [4, 5, 6, 7, 8, 9]}
+
+lr 3e-3, mean +- SD over seeds:
+  Adam                       n=4  last5 92.94 +- 0.10 | final 92.97 | ep90 18.8 | val-loss AUC 28.21
+  Adam-NV                    n=4  last5 93.13 +- 0.14 | final 93.14 | ep90 18.2 | val-loss AUC 27.48
+  Adam, const. beta1=0.83    n=6  last5 93.05 +- 0.26 | final 93.06 | ep90 19.2 | val-loss AUC 27.93
+  Adam, const. beta1=0.80    n=6  last5 93.04 +- 0.19 | final 93.05 | ep90 20.0 | val-loss AUC 28.31
+
+Paired contrasts, metric = last5 (pp; Holm over the five):
+  Adam-NV - Adam: +0.197  95% CI [+0.114, +0.280]  p=0.0047  p_Holm=nan  sign-flip p=0.1250  higher in 4/4
+  Adam, const. beta1=0.83 - Adam: not enough paired seeds
+  Adam, const. beta1=0.80 - Adam: not enough paired seeds
+  Adam-NV - Adam, const. beta1=0.83: not enough paired seeds
+  Adam-NV - Adam, const. beta1=0.80: not enough paired seeds
+
+Paired contrasts, metric = final (pp; Holm over the five):
+  Adam-NV - Adam: +0.172  95% CI [+0.030, +0.315]  p=0.0309  p_Holm=nan  sign-flip p=0.1250  higher in 4/4
+  Adam, const. beta1=0.83 - Adam: not enough paired seeds
+  Adam, const. beta1=0.80 - Adam: not enough paired seeds
+  Adam-NV - Adam, const. beta1=0.83: not enough paired seeds
+  Adam-NV - Adam, const. beta1=0.80: not enough paired seeds
+
+=== Pre-registered decision (primary metric = last5) ===
+  Not enough complete arms/seeds to apply the rule.

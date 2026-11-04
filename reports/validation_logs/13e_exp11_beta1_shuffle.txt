@@ -1,0 +1,69 @@
+$ /home/claude/venv/bin/python analyze_exp11.py --orig-dir /home/claude/Adam-NV_Repaired/e2_noisy_gradient/logs/Label_Diagnostic --exp07-dirs /tmp/tmpd5gf4c6i/e7a/logs_exp07_A /tmp/tmpd5gf4c6i/e7b/logs_exp07_B /tmp/tmpd5gf4c6i/e7c/exp07_log_C/log_exp07_C --step-dirs /tmp/tmpd5gf4c6i/e11A/logs_exp11_step_A /tmp/tmpd5gf4c6i/e11C/logs_exp11_step_C --fixed-dirs /tmp/tmpd5gf4c6i/e11B/logs_exp11_fixed_B /tmp/tmpd5gf4c6i/e11C/logs_exp11_fixed_C --none-dirs /tmp/tmpd5gf4c6i/e11C/logs_exp11_none_C --strict-seeds
+(cwd=adam-nv/analysis)
+
+
+=== Memorization: corrupted examples fitted to wrong label, last-5 (pp) ===
+  Adam (0.90)              n=8 mean=79.58 sd=1.01
+  Adam-NV                  n=8 mean=83.49 sd=0.54
+  Adam-NV, shuffle/step    n=8 mean=81.98 sd=0.69
+  Adam-NV, shuffle/fixed   n=8 mean=82.40 sd=0.73
+  Adam-NV - Adam (0.90): +3.909 pp  95% CI [+3.111, +4.706]  p=0.0000  (reference contrast)  sign-flip p=0.0078  higher in 8/8
+  Adam-NV, shuffle/step - Adam (0.90): +2.400 pp  95% CI [+1.199, +3.601]  p=0.0021  p_Holm=0.0064  sign-flip p=0.0078  higher in 8/8
+  Adam-NV, shuffle/fixed - Adam (0.90): +2.811 pp  95% CI [+2.179, +3.443]  p=0.0000  p_Holm=0.0001  sign-flip p=0.0078  higher in 8/8
+  Adam-NV - Adam-NV, shuffle/step: +1.508 pp  95% CI [+0.932, +2.085]  p=0.0005  p_Holm=0.0018  sign-flip p=0.0078  higher in 8/8
+  Adam-NV - Adam-NV, shuffle/fixed: +1.098 pp  95% CI [+0.389, +1.806]  p=0.0081  p_Holm=0.0161  sign-flip p=0.0156  higher in 7/8
+  Adam-NV, shuffle/fixed - Adam-NV, shuffle/step: +0.411 pp  95% CI [-0.527, +1.349]  p=0.3349  p_Holm=0.3349  sign-flip p=0.3359  higher in 5/8
+
+=== Validation accuracy, last-5 (pp) ===
+  Adam (0.90)              n=8 mean=78.79 sd=0.39
+  Adam-NV                  n=8 mean=78.84 sd=0.35
+  Adam-NV, shuffle/step    n=8 mean=78.59 sd=0.42
+  Adam-NV, shuffle/fixed   n=8 mean=78.59 sd=0.24
+  Adam-NV - Adam (0.90): +0.046 pp  95% CI [-0.358, +0.449]  p=0.7974  (reference contrast)  sign-flip p=0.7656  higher in 5/8
+  Adam-NV, shuffle/step - Adam (0.90): -0.197 pp  95% CI [-0.546, +0.151]  p=0.2223  p_Holm=0.8893  sign-flip p=0.2188  higher in 2/8
+  Adam-NV, shuffle/fixed - Adam (0.90): -0.205 pp  95% CI [-0.610, +0.200]  p=0.2699  p_Holm=0.8893  sign-flip p=0.2422  higher in 2/8
+  Adam-NV - Adam-NV, shuffle/step: +0.243 pp  95% CI [-0.228, +0.714]  p=0.2621  p_Holm=0.8893  sign-flip p=0.3047  higher in 4/8
+  Adam-NV - Adam-NV, shuffle/fixed: +0.251 pp  95% CI [-0.050, +0.552]  p=0.0894  p_Holm=0.4468  sign-flip p=0.1016  higher in 6/8
+  Adam-NV, shuffle/fixed - Adam-NV, shuffle/step: -0.008 pp  95% CI [-0.325, +0.310]  p=0.9556  p_Holm=0.9556  sign-flip p=0.9531  higher in 3/8
+
+=== Clean-subset train accuracy, last-5 (pp) ===
+  Adam (0.90)              n=8 mean=98.73 sd=0.05
+  Adam-NV                  n=8 mean=98.84 sd=0.08
+  Adam-NV, shuffle/step    n=8 mean=98.80 sd=0.07
+  Adam-NV, shuffle/fixed   n=8 mean=98.78 sd=0.09
+  Adam-NV - Adam (0.90): +0.108 pp  95% CI [+0.025, +0.191]  p=0.0179  (reference contrast)  sign-flip p=0.0312  higher in 6/8
+  Adam-NV, shuffle/step - Adam (0.90): +0.073 pp  95% CI [+0.009, +0.137]  p=0.0317  p_Holm=0.1583  sign-flip p=0.0391  higher in 7/8
+  Adam-NV, shuffle/fixed - Adam (0.90): +0.046 pp  95% CI [-0.023, +0.115]  p=0.1582  p_Holm=0.4747  sign-flip p=0.1797  higher in 5/8
+  Adam-NV - Adam-NV, shuffle/step: +0.035 pp  95% CI [-0.066, +0.136]  p=0.4406  p_Holm=0.8714  sign-flip p=0.4375  higher in 5/8
+  Adam-NV - Adam-NV, shuffle/fixed: +0.062 pp  95% CI [-0.006, +0.129]  p=0.0682  p_Holm=0.2726  sign-flip p=0.0938  higher in 5/8
+  Adam-NV, shuffle/fixed - Adam-NV, shuffle/step: -0.027 pp  95% CI [-0.103, +0.050]  p=0.4357  p_Holm=0.8714  sign-flip p=0.4297  higher in 3/8
+
+=== Peak validation accuracy (pp) ===
+  Adam (0.90)              n=8 mean=87.61 sd=0.45
+  Adam-NV                  n=8 mean=87.45 sd=0.27
+  Adam-NV, shuffle/step    n=8 mean=87.36 sd=0.22
+  Adam-NV, shuffle/fixed   n=8 mean=87.68 sd=0.23
+  Adam-NV - Adam (0.90): -0.161 pp  95% CI [-0.576, +0.254]  p=0.3886  (reference contrast)  sign-flip p=0.4453  higher in 4/8
+  Adam-NV, shuffle/step - Adam (0.90): -0.255 pp  95% CI [-0.674, +0.164]  p=0.1935  p_Holm=0.5805  sign-flip p=0.2344  higher in 3/8
+  Adam-NV, shuffle/fixed - Adam (0.90): +0.064 pp  95% CI [-0.270, +0.398]  p=0.6655  p_Holm=0.7819  sign-flip p=0.6641  higher in 6/8
+  Adam-NV - Adam-NV, shuffle/step: +0.094 pp  95% CI [-0.149, +0.336]  p=0.3910  p_Holm=0.7819  sign-flip p=0.4219  higher in 4/8
+  Adam-NV - Adam-NV, shuffle/fixed: -0.225 pp  95% CI [-0.549, +0.099]  p=0.1448  p_Holm=0.5791  sign-flip p=0.1328  higher in 3/8
+  Adam-NV, shuffle/fixed - Adam-NV, shuffle/step: +0.319 pp  95% CI [+0.089, +0.549]  p=0.0135  p_Holm=0.0676  sign-flip p=0.0078  higher in 8/8
+
+Canary: shuffle wrapper with mode=none against the existing Adam-NV logs
+  adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv: max abs difference over 15 columns = 0.000e+00 (IDENTICAL)
+  adam_nv_scheduleconstant_sigma0.0_ln0.2_seed1.csv: max abs difference over 15 columns = 0.000e+00 (IDENTICAL)
+
+Element-level beta_1 distribution of the controller (mode none; mean over 2 runs)
+  epoch           mean            min            q01            q05            q25            q50            q75            q95 frac_below_0.5 frac_below_0.7
+      1         0.8910         0.6012         0.8570         0.8757         0.8890         0.8936         0.8963         0.8983         0.0000         0.0001
+     10         0.8925         0.4592         0.8420         0.8713         0.8923         0.8966         0.8982         0.8992         0.0000         0.0006
+     20         0.8934         0.4857         0.8458         0.8713         0.8933         0.8979         0.8991         0.8997         0.0000         0.0003
+     40         0.8848         0.4058         0.8240         0.8503         0.8793         0.8910         0.8965         0.8992         0.0000         0.0002
+     60         0.8813         0.4364         0.8181         0.8449         0.8737         0.8870         0.8948         0.8987         0.0000         0.0002
+
+=== Pre-registered decision (primary metric) ===
+  M = Adam-NV - Adam = +3.91 pp [+3.11, +4.71]
+  shuffle/step: F = +2.40 pp, D = +1.51 pp [+0.93, +2.08]  -> PARTIAL
+  shuffle/fixed: F = +2.81 pp, D = +1.10 pp [+0.39, +1.81]  -> PARTIAL
+  OUTCOME: INCONCLUSIVE; report all contrasts and extend seeds.

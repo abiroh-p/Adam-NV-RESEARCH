@@ -1,0 +1,65 @@
+{
+  "purpose": "Recovered record for the epoch missing from the original CSV. Original CSV is unchanged.",
+  "run_csv": "adam-nv/e1_convergence/logs/gono_seed1.csv",
+  "run_csv_sha256": "3a5a771172b4e1ef84bf9c0b9590897bbe197c83afcf94ea153c6badd26837c7",
+  "missing_epochs": [
+    60
+  ],
+  "recovered": {
+    "60": {
+      "train_loss": 0.0037,
+      "train_acc": 0.9989,
+      "val_loss": 0.4386,
+      "val_acc": 0.9256
+    }
+  },
+  "precision": {
+    "val_acc": "exact: the validation set has 10,000 images, so 4 decimals is lossless",
+    "train_acc": "rounded to 4 decimals (true value in [0.99885, 0.99895]); 50,000 training images",
+    "train_loss": "rounded to 4 decimals",
+    "val_loss": "rounded to 4 decimals"
+  },
+  "not_recoverable": [
+    "lr",
+    "epoch_time_sec",
+    "beta1_*",
+    "cosine_* and every other logged column"
+  ],
+  "source": {
+    "file": "adam-nv/e1_convergence/logs/stdout_gono_gpu0.txt",
+    "file_sha256": "74495e38567da352d5e802e90599807329231f15c6154b501b35e6072ea5bc0f",
+    "line_number": 5332,
+    "line_text": "[gono_seed1] epoch  60/60 | train_loss=0.0037 train_acc=0.9989 | val_loss=0.4386 val_acc=0.9256 | 47.7s/epoch"
+  },
+  "validation": "all 59 CSV epochs match the stdout lines at 4-decimal precision (0 mismatches)",
+  "suite_status": "adam-nv/e1_convergence/logs/_suite_status_gono_gpu0.csv: gono,1,success,3029.5",
+  "usage_rule": "Superseded for analysis by the complete rerun (analysis/analyze_e1.py uses the rerun by default). Kept as a documented, independently corroborated record.",
+  "independent_corroboration": {
+    "rerun_csv": "adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv",
+    "rerun_csv_sha256": "6b5e81f2066921c5c190f1e2fcacf5d3ab1f3e1811e6c937a9ffc3868f02d655",
+    "rerun_rows": 60,
+    "compared_columns": [
+      "epoch",
+      "train_loss",
+      "train_acc",
+      "val_loss",
+      "val_acc",
+      "lr",
+      "beta1_mean",
+      "beta1_min",
+      "beta1_max",
+      "cc_mean",
+      "cc_min",
+      "cc_max"
+    ],
+    "max_abs_diff_epochs_1_59": 0.0,
+    "epoch60_rerun_values_rounded_to_4dp_equal_stdout_values": true,
+    "epoch60_rerun_full_precision": {
+      "train_loss": 0.0036554557287506,
+      "train_acc": 0.99892,
+      "val_loss": 0.4385877102136612,
+      "val_acc": 0.9256
+    },
+    "note": "The rerun recorded code hashes that all verify against provenance/source_archive; the original run's hashes do not (PRV-01)."
+  }
+}

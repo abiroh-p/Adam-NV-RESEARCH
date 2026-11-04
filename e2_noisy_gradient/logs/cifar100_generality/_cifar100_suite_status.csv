@@ -1,0 +1,9 @@
+optimizer,condition,seed,status,elapsed_sec,error
+adam,clean,4,success,2935.5,
+adam,clean,5,success,2945.1,
+adam,clean,6,success,2944.1,
+adam,clean,7,success,2944.6,
+adam_nv,clean,4,success,3213.3,
+adam_nv,clean,5,success,3214.1,
+adam_nv,clean,6,success,3216.5,
+adam_nv,clean,7,success,3218.8,

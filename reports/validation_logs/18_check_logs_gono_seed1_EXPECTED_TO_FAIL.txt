@@ -1,0 +1,6 @@
+$ /home/claude/venv/bin/python check_logs.py --log-dir ../logs --optimizers gono --seeds 1 --expect-torch  --expect-torchvision  --hash-mode off
+(cwd=adam-nv/e1_convergence/src)
+
+[FAIL] gono_seed1: 59 data rows, expected 60
+
+1 problem run(s)

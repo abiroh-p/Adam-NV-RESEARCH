@@ -1,0 +1,12 @@
+$ /home/claude/venv/bin/python adam-nv/analysis/analyze_exp06.py --log-dirs /tmp/tmpd5gf4c6i/e5adam /tmp/tmpd5gf4c6i/e5adamnv --tag _lr3e-3 --opts adam adam_nv --ref adam
+(cwd=.)
+
+
+Final-epoch val_acc (percent):
+  adam         n=4 mean=92.970 std=0.112
+  adam_nv      n=4 mean=93.142 std=0.090
+
+Paired differences vs adam (percent points, same seeds):
+  adam_nv      n=4 mean diff=+0.173  95% CI [+0.030, +0.315]  p=0.031  seeds higher: 4/4
+
+Note: with n=4 these intervals are wide; read them as effect-size estimates, not proof.

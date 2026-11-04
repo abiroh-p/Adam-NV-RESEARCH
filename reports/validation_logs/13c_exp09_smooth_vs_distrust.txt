@@ -1,0 +1,42 @@
+$ /home/claude/venv/bin/python analyze_exp09.py --orig-dir /home/claude/Adam-NV_Repaired/e2_noisy_gradient/logs/Label_Diagnostic --exp07-dirs /tmp/tmpd5gf4c6i/e7a/logs_exp07_A /tmp/tmpd5gf4c6i/e7b/logs_exp07_B /tmp/tmpd5gf4c6i/e7c/exp07_log_C/log_exp07_C --smooth-dirs /tmp/tmpd5gf4c6i/e9A/logs_exp09_A /tmp/tmpd5gf4c6i/e9B/logs_exp09_B --strict-seeds
+(cwd=adam-nv/analysis)
+
+
+=== Memorization: corrupted examples fitted to wrong label, last-5 (pp) ===
+  Adam (0.90)          n=8 mean=79.58 sd=1.01
+  Adam-NV (distrust)   n=8 mean=83.49 sd=0.54
+  Adam-NV (smooth)     n=8 mean=78.11 sd=0.89
+  Adam-NV (distrust) - Adam (0.90): +3.909 pp  95% CI [+3.111, +4.706]  p=0.0000  (reference contrast)  sign-flip p=0.0078  higher in 8/8
+  Adam-NV (smooth) - Adam (0.90): -1.471 pp  95% CI [-2.396, -0.546]  p=0.0071  p_Holm=0.0071  sign-flip p=0.0078  higher in 0/8
+  Adam-NV (distrust) - Adam-NV (smooth): +5.380 pp  95% CI [+4.554, +6.205]  p=0.0000  p_Holm=0.0000  sign-flip p=0.0078  higher in 8/8
+
+=== Validation accuracy, last-5 (pp) ===
+  Adam (0.90)          n=8 mean=78.79 sd=0.39
+  Adam-NV (distrust)   n=8 mean=78.84 sd=0.35
+  Adam-NV (smooth)     n=8 mean=78.37 sd=0.52
+  Adam-NV (distrust) - Adam (0.90): +0.046 pp  95% CI [-0.358, +0.449]  p=0.7974  (reference contrast)  sign-flip p=0.7656  higher in 5/8
+  Adam-NV (smooth) - Adam (0.90): -0.419 pp  95% CI [-0.954, +0.117]  p=0.1070  p_Holm=0.1216  sign-flip p=0.0938  higher in 2/8
+  Adam-NV (distrust) - Adam-NV (smooth): +0.464 pp  95% CI [-0.028, +0.956]  p=0.0608  p_Holm=0.1216  sign-flip p=0.0703  higher in 7/8
+
+=== Clean-subset train accuracy, last-5 (pp) ===
+  Adam (0.90)          n=8 mean=98.73 sd=0.05
+  Adam-NV (distrust)   n=8 mean=98.84 sd=0.08
+  Adam-NV (smooth)     n=8 mean=98.72 sd=0.07
+  Adam-NV (distrust) - Adam (0.90): +0.108 pp  95% CI [+0.025, +0.191]  p=0.0179  (reference contrast)  sign-flip p=0.0312  higher in 6/8
+  Adam-NV (smooth) - Adam (0.90): -0.013 pp  95% CI [-0.072, +0.045]  p=0.6086  p_Holm=0.6086  sign-flip p=0.6406  higher in 4/8
+  Adam-NV (distrust) - Adam-NV (smooth): +0.121 pp  95% CI [+0.036, +0.206]  p=0.0120  p_Holm=0.0241  sign-flip p=0.0234  higher in 7/8
+
+=== Peak validation accuracy (pp) ===
+  Adam (0.90)          n=8 mean=87.61 sd=0.45
+  Adam-NV (distrust)   n=8 mean=87.45 sd=0.27
+  Adam-NV (smooth)     n=8 mean=87.29 sd=0.20
+  Adam-NV (distrust) - Adam (0.90): -0.161 pp  95% CI [-0.576, +0.254]  p=0.3886  (reference contrast)  sign-flip p=0.4453  higher in 4/8
+  Adam-NV (smooth) - Adam (0.90): -0.324 pp  95% CI [-0.675, +0.027]  p=0.0655  p_Holm=0.1311  sign-flip p=0.0703  higher in 2/8
+  Adam-NV (distrust) - Adam-NV (smooth): +0.163 pp  95% CI [-0.108, +0.433]  p=0.1979  p_Holm=0.1979  sign-flip p=0.2422  higher in 5/8
+
+beta1 (time-averaged mean, lowest element-level min, highest max): distrust 0.808, min 0.560, max 0.899
+                                                                   smooth   0.919, min 0.900, max 0.990
+
+=== Pre-registered decision (primary metric) ===
+  M = +3.91 pp, F = -1.47 pp, D = +5.38 pp (CI [+4.55, +6.21])
+  OUTCOME: DISTRUST DIRECTION DRIVES THE EFFECT (F < 0.25*M, D CI above 0)

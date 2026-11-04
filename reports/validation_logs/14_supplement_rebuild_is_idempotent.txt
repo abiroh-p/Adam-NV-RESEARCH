@@ -1,0 +1,4 @@
+$ /home/claude/venv/bin/python supplements/e1/build_gono_seed1_supplement.py
+(cwd=.)
+
+wrote supplements/e1/gono_seed1_epoch60_from_stdout.json | epoch 60: {'train_loss': 0.0037, 'train_acc': 0.9989, 'val_loss': 0.4386, 'val_acc': 0.9256}

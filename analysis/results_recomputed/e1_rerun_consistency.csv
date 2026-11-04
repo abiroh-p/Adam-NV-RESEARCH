@@ -1,0 +1,2 @@
+optimizer,seed,original,rerun,original_rows,overlapping_epochs,compared_columns,max_abs_diff_non_timing,consistent
+gono,1,adam-nv/e1_convergence/logs/gono_seed1.csv,adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv,59,59,12,0.0,True

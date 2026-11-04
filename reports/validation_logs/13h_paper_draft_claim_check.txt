@@ -1,0 +1,4 @@
+$ /home/claude/venv/bin/python reports/_build_paper_check.py
+(cwd=.)
+
+{'MATCH': 95, 'NOT VERIFIABLE': 6, 'DIFFERS': 1}

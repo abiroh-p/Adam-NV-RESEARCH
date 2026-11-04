@@ -1,0 +1,96 @@
+{
+  "entries": [
+    {
+      "archived_as": "provenance/source_archive/adam_nv.py@2d6cd7df",
+      "bytes": 18821,
+      "file_name": "adam_nv.py",
+      "sha256": "2d6cd7dffffd2c476bb19e9427c259ab843f519bb8934b743a1186d486ff91d8",
+      "sha256_lf_normalized": "2d6cd7dffffd2c476bb19e9427c259ab843f519bb8934b743a1186d486ff91d8"
+    },
+    {
+      "archived_as": "provenance/source_archive/adam_nv.py@bcc7824b",
+      "bytes": 19802,
+      "file_name": "adam_nv.py",
+      "sha256": "bcc7824b90e253212e7fccb690e7e5c90566fcb8fe36ec3c8ce066554291bc07",
+      "sha256_lf_normalized": "bcc7824b90e253212e7fccb690e7e5c90566fcb8fe36ec3c8ce066554291bc07"
+    },
+    {
+      "archived_as": "provenance/source_archive/adam_nv_shuffle.py@8e4df34c",
+      "bytes": 13541,
+      "file_name": "adam_nv_shuffle.py",
+      "sha256": "8e4df34c4df6b65baabc9cbabda7ebb1e33fcbb6afc0389cfd5a02b6a9b5d684",
+      "sha256_lf_normalized": "8e4df34c4df6b65baabc9cbabda7ebb1e33fcbb6afc0389cfd5a02b6a9b5d684"
+    },
+    {
+      "archived_as": "provenance/source_archive/benchmark_optimizer_overhead_v2.py@fb71196a",
+      "bytes": 10455,
+      "file_name": "benchmark_optimizer_overhead_v2.py",
+      "sha256": "fb71196af3ecf4df7311cc003face1cfd4d43b10def4f1f4e431ff408965f1fa",
+      "sha256_lf_normalized": "fb71196af3ecf4df7311cc003face1cfd4d43b10def4f1f4e431ff408965f1fa"
+    },
+    {
+      "archived_as": "provenance/source_archive/experiment_metadata.py@92864b04",
+      "bytes": 1456,
+      "file_name": "experiment_metadata.py",
+      "sha256": "92864b0412d8af77f77deba7b41e481bff0a6995df6005b3843e31628846ef12",
+      "sha256_lf_normalized": "92864b0412d8af77f77deba7b41e481bff0a6995df6005b3843e31628846ef12"
+    },
+    {
+      "archived_as": "provenance/source_archive/experiment_metadata.py@ab020aaf",
+      "bytes": 1436,
+      "file_name": "experiment_metadata.py",
+      "sha256": "ab020aafbd2a9dbc1c59108c04de331f3737ee26af9a5637ddbcf3f6d422019c",
+      "sha256_lf_normalized": "ab020aafbd2a9dbc1c59108c04de331f3737ee26af9a5637ddbcf3f6d422019c"
+    },
+    {
+      "archived_as": "provenance/source_archive/gono.py@326bcedc",
+      "bytes": 9604,
+      "file_name": "gono.py",
+      "sha256": "326bcedc828f24bf2e1a12f1035cb6c4b0d9f2dc8d52f4dab0f76aed9bd9eb98",
+      "sha256_lf_normalized": "326bcedc828f24bf2e1a12f1035cb6c4b0d9f2dc8d52f4dab0f76aed9bd9eb98"
+    },
+    {
+      "archived_as": "provenance/source_archive/noise.py@eee61201",
+      "bytes": 7646,
+      "file_name": "noise.py",
+      "sha256": "eee61201d59319039309a46d552932efc862d16b4ae1c8e43c44d6e9d8af34d8",
+      "sha256_lf_normalized": "ca58985147f006088dc987ca8466fa59138e53b5acf0c001f02fc4703c34f989"
+    },
+    {
+      "archived_as": "provenance/source_archive/noise_schedule.py@90e11e2c",
+      "bytes": 8423,
+      "file_name": "noise_schedule.py",
+      "sha256": "90e11e2c2b5c480a5eb26de76ed02776a4f14dcc2d375144c2539b5c62c908ec",
+      "sha256_lf_normalized": "90e11e2c2b5c480a5eb26de76ed02776a4f14dcc2d375144c2539b5c62c908ec"
+    },
+    {
+      "archived_as": "provenance/source_archive/part_b_resnet_v8.py@242e6a77",
+      "bytes": 31839,
+      "file_name": "part_b_resnet_v8.py",
+      "sha256": "242e6a7711ea049573224f3dc917ddb709e823cbe256ae48fee7a12a2c7522e4",
+      "sha256_lf_normalized": "242e6a7711ea049573224f3dc917ddb709e823cbe256ae48fee7a12a2c7522e4"
+    },
+    {
+      "archived_as": "provenance/source_archive/part_b_resnet_v8_shuffle.py@b8612dff",
+      "bytes": 3251,
+      "file_name": "part_b_resnet_v8_shuffle.py",
+      "sha256": "b8612dfff62d8d2b6064fed948e1996c74eb0674b2c2215c6a9d1dc09306eaf8",
+      "sha256_lf_normalized": "b8612dfff62d8d2b6064fed948e1996c74eb0674b2c2215c6a9d1dc09306eaf8"
+    },
+    {
+      "archived_as": "provenance/source_archive/train_resnet.py@2ab3aa02",
+      "bytes": 15764,
+      "file_name": "train_resnet.py",
+      "sha256": "2ab3aa0262f621b9016920ddb38cd03b1e3cd1128a7f7907a98d9ecb6374bd82",
+      "sha256_lf_normalized": "2ab3aa0262f621b9016920ddb38cd03b1e3cd1128a7f7907a98d9ecb6374bd82"
+    },
+    {
+      "archived_as": "provenance/source_archive/train_resnet_ex.py@8aef0072",
+      "bytes": 15041,
+      "file_name": "train_resnet_ex.py",
+      "sha256": "8aef0072af5b1d26763a44e8aa367f7c49bce8a07c75f87d1734135ccdf50ae5",
+      "sha256_lf_normalized": "8aef0072af5b1d26763a44e8aa367f7c49bce8a07c75f87d1734135ccdf50ae5"
+    }
+  ],
+  "schema": 1
+}

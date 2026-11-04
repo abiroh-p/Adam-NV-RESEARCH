@@ -1,0 +1,5 @@
+optimizer,n_seeds,final_val_acc_mean,final_val_acc_std,epochs_to_90pct,val_loss_auc
+Adam-NV (ours),4,0.9328,0.0016,20,25.7
+AdaBelief,4,0.9251,0.0017,26,25.86
+Adam,4,0.9313,0.0013,19,25.59
+AdamW,4,0.9314,0.0012,18,25.63

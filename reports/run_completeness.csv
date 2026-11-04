@@ -1,0 +1,736 @@
+path,status,rows,metadata,detail
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed4.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed5.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed6.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed7.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed8.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed9.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_seed4.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_seed5.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_seed6.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_seed7.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_seed8.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adam_seed9.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adamw_seed4.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adamw_seed5.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adamw_seed6.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adamw_seed7.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adamw_seed8.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/AdditionalsLogs/adamw_seed9.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed0.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed1.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed2.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed3.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed4.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed5.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed6.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed7.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed8.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed9.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed0.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed1.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed2.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed3.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed4.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed5.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed6.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed7.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed8.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed9.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-3_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-3_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-3_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-3_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-4_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-4_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-4_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-4_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-3_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-3_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-3_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-3_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-4_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-4_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-4_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-4_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-3_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-3_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-3_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-3_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-4_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-4_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-4_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-4_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed4.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed5.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed6.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed7.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed8.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed9.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed4.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed5.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed6.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed7.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed8.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv.zip>adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed9.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed0.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed1.csv,KNOWN_PARTIAL_SUPERSEDED,59,yes,adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed2.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed3.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed4.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed5.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed6.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed7.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed8.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed9.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs, logs, gono_seed_1"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/log_exp07_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: log_exp07_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/log_exp07_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: log_exp07_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/log_exp07_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: log_exp07_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_C.zip>logs_exp11_fixed_C, exp11_logs_C.zip>logs_exp11_step_C, exp11_logs_C.zip>logs_exp11_fixed_C, exp11_logs_C.zip>logs_exp11_step_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/log_exp07_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: log_exp07_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_C.zip>logs_exp11_fixed_C, exp11_logs_C.zip>logs_exp11_step_C, exp11_logs_C.zip>logs_exp11_fixed_C, exp11_logs_C.zip>logs_exp11_step_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/logs_exp07_canary/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: logs_exp07_canary; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/logs_exp07_canary/adam_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: logs_exp07_canary; SAME NAME, DIFFERENT CONTENT in: Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b070_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b070_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b070_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b070_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b078_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b078_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b078_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b078_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b078_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b078_A; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b078_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b078_A; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b070_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_B; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b070_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_B; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b078_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b078_B; SAME NAME, DIFFERENT CONTENT in: exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b078_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b078_B; SAME NAME, DIFFERENT CONTENT in: exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b078_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b078_B; SAME NAME, DIFFERENT CONTENT in: exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b078_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b078_B; SAME NAME, DIFFERENT CONTENT in: exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp09_logs_A.zip>logs_exp09_A/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed0.csv,OK,60,yes,byte-identical copy in: exp09_logs_A.zip>logs_exp09_A
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp09_logs_A.zip>logs_exp09_A/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed1.csv,OK,60,yes,byte-identical copy in: exp09_logs_A.zip>logs_exp09_A
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp09_logs_A.zip>logs_exp09_A/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed2.csv,OK,60,yes,byte-identical copy in: exp09_logs_A.zip>logs_exp09_A
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp09_logs_A.zip>logs_exp09_A/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed3.csv,OK,60,yes,byte-identical copy in: exp09_logs_A.zip>logs_exp09_A
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp09_logs_B.zip>logs_exp09_B/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed4.csv,OK,60,yes,byte-identical copy in: exp09_logs_B.zip>logs_exp09_B
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp09_logs_B.zip>logs_exp09_B/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed5.csv,OK,60,yes,byte-identical copy in: exp09_logs_B.zip>logs_exp09_B
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp09_logs_B.zip>logs_exp09_B/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed6.csv,OK,60,yes,byte-identical copy in: exp09_logs_B.zip>logs_exp09_B
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp09_logs_B.zip>logs_exp09_B/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed7.csv,OK,60,yes,byte-identical copy in: exp09_logs_B.zip>logs_exp09_B
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed4.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed5.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed6.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed7.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed8.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed9.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed4.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed5.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed6.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed7.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed8.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed9.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, logs_exp07_canary, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_B.zip>logs_exp11_fixed_B, log_exp07_C, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_B.zip>logs_exp11_fixed_B, log_exp07_C, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_A.zip>logs_exp11_step_A, log_exp07_C, exp11_logs_A.zip>logs_exp11_step_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_A.zip>logs_exp11_step_A, log_exp07_C, exp11_logs_A.zip>logs_exp11_step_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_fixed_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_fixed_C; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_C.zip>logs_exp11_step_C, log_exp07_C, exp11_logs_C.zip>logs_exp11_step_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_fixed_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_fixed_C; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_C.zip>logs_exp11_step_C, log_exp07_C, exp11_logs_C.zip>logs_exp11_step_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_none_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_none_C; SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_none_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_none_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_step_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_step_C; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_C.zip>logs_exp11_fixed_C, log_exp07_C, exp11_logs_C.zip>logs_exp11_fixed_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_step_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_step_C; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_C.zip>logs_exp11_fixed_C, log_exp07_C, exp11_logs_C.zip>logs_exp11_fixed_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_1.zip>logs_exp12_b092_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp12_logs_1.zip>logs_exp12_b092_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_1.zip>logs_exp12_b092_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp12_logs_1.zip>logs_exp12_b092_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_1.zip>logs_exp12_b092_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp12_logs_1.zip>logs_exp12_b092_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_1.zip>logs_exp12_b092_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp12_logs_1.zip>logs_exp12_b092_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_2.zip>logs_exp12_b092_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: exp12_logs_2.zip>logs_exp12_b092_2; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_2.zip>logs_exp12_b092_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: exp12_logs_2.zip>logs_exp12_b092_2; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_2.zip>logs_exp12_b092_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: exp12_logs_2.zip>logs_exp12_b092_2; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_2.zip>logs_exp12_b092_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: exp12_logs_2.zip>logs_exp12_b092_2; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_3.zip>logs_exp12_b095_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp12_logs_3.zip>logs_exp12_b095_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_3.zip>logs_exp12_b095_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp12_logs_3.zip>logs_exp12_b095_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_3.zip>logs_exp12_b095_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp12_logs_3.zip>logs_exp12_b095_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/exp12_logs_3.zip>logs_exp12_b095_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp12_logs_3.zip>logs_exp12_b095_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: logs_exp07_A.zip>logs_exp07_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: logs_exp07_A.zip>logs_exp07_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: logs_exp07_A.zip>logs_exp07_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: logs_exp07_A.zip>logs_exp07_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,byte-identical copy in: logs_exp07_A.zip>logs_exp07_A
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,byte-identical copy in: logs_exp07_A.zip>logs_exp07_A
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: logs_exp07_B.zip>logs_exp07_B; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: logs_exp07_B.zip>logs_exp07_B; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: logs_exp07_B.zip>logs_exp07_B; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: logs_exp07_B.zip>logs_exp07_B; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,byte-identical copy in: logs_exp07_B.zip>logs_exp07_B
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,byte-identical copy in: logs_exp07_B.zip>logs_exp07_B
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp08_b070_C.zip>logs_exp08_b070_C/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_C.zip>logs_exp08_b070_C; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp08_b070_C.zip>logs_exp08_b070_C/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_C.zip>logs_exp08_b070_C; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp08_b070_C.zip>logs_exp08_b070_C/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_C.zip>logs_exp08_b070_C; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B"
+zip:adam-nv.zip>adam-nv/e2_noisy_gradient/logs/logs_exp08_b070_C.zip>logs_exp08_b070_C/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_C.zip>logs_exp08_b070_C; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B"
+zip:e2_noisy_gradient/logs/Label_Diagnostic.zip>Label_Diagnostic/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic, logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+zip:e2_noisy_gradient/logs/Label_Diagnostic.zip>Label_Diagnostic/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+zip:e2_noisy_gradient/logs/Label_Diagnostic.zip>Label_Diagnostic/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:e2_noisy_gradient/logs/Label_Diagnostic.zip>Label_Diagnostic/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:e2_noisy_gradient/logs/Label_Diagnostic.zip>Label_Diagnostic/adam_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, Label_Diagnostic, logs_exp07_canary"
+zip:e2_noisy_gradient/logs/Label_Diagnostic.zip>Label_Diagnostic/adam_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Label_Diagnostic"
+zip:e2_noisy_gradient/logs/Label_Diagnostic.zip>Label_Diagnostic/adam_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Label_Diagnostic"
+zip:e2_noisy_gradient/logs/Label_Diagnostic.zip>Label_Diagnostic/adam_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Label_Diagnostic"
+e2_noisy_gradient/logs/Intermittent/adam_nv_scheduleintermittent_sigma2.0_seed0.csv,OK,60,NO,"byte-identical copy in: dynamic_noise; SAME NAME, DIFFERENT CONTENT in: controller_direction"
+e2_noisy_gradient/logs/Intermittent/adam_nv_scheduleintermittent_sigma2.0_seed1.csv,OK,60,NO,"byte-identical copy in: dynamic_noise; SAME NAME, DIFFERENT CONTENT in: controller_direction"
+e2_noisy_gradient/logs/Intermittent/adam_nv_scheduleintermittent_sigma2.0_seed2.csv,OK,60,NO,"byte-identical copy in: dynamic_noise; SAME NAME, DIFFERENT CONTENT in: controller_direction"
+e2_noisy_gradient/logs/Intermittent/adam_nv_scheduleintermittent_sigma2.0_seed3.csv,OK,60,NO,"byte-identical copy in: dynamic_noise; SAME NAME, DIFFERENT CONTENT in: controller_direction"
+e2_noisy_gradient/logs/Intermittent/adam_nv_scheduleintermittent_sigma2.0_seed4.csv,OK,60,NO,
+e2_noisy_gradient/logs/Intermittent/adam_nv_scheduleintermittent_sigma2.0_seed5.csv,OK,60,NO,
+e2_noisy_gradient/logs/Intermittent/adam_nv_scheduleintermittent_sigma2.0_seed6.csv,OK,60,NO,
+e2_noisy_gradient/logs/Intermittent/adam_nv_scheduleintermittent_sigma2.0_seed7.csv,OK,60,NO,
+e2_noisy_gradient/logs/Intermittent/adam_scheduleintermittent_sigma2.0_seed0.csv,OK,60,NO,byte-identical copy in: dynamic_noise
+e2_noisy_gradient/logs/Intermittent/adam_scheduleintermittent_sigma2.0_seed1.csv,OK,60,NO,byte-identical copy in: dynamic_noise
+e2_noisy_gradient/logs/Intermittent/adam_scheduleintermittent_sigma2.0_seed2.csv,OK,60,NO,byte-identical copy in: dynamic_noise
+e2_noisy_gradient/logs/Intermittent/adam_scheduleintermittent_sigma2.0_seed3.csv,OK,60,NO,byte-identical copy in: dynamic_noise
+e2_noisy_gradient/logs/Intermittent/adam_scheduleintermittent_sigma2.0_seed4.csv,OK,60,NO,
+e2_noisy_gradient/logs/Intermittent/adam_scheduleintermittent_sigma2.0_seed5.csv,OK,60,NO,
+e2_noisy_gradient/logs/Intermittent/adam_scheduleintermittent_sigma2.0_seed6.csv,OK,60,NO,
+e2_noisy_gradient/logs/Intermittent/adam_scheduleintermittent_sigma2.0_seed7.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleconstant_sigma2.0_beta2noise0.95_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleconstant_sigma2.0_beta2noise0.95_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleconstant_sigma2.0_beta2noise0.95_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleconstant_sigma2.0_beta2noise0.95_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleconstant_sigma2.0_beta2noise0.99_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleconstant_sigma2.0_beta2noise0.99_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleconstant_sigma2.0_beta2noise0.99_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleconstant_sigma2.0_beta2noise0.99_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_schedulephased_sigma2.0_beta2noise0.95_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_schedulephased_sigma2.0_beta2noise0.95_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_schedulephased_sigma2.0_beta2noise0.95_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_schedulephased_sigma2.0_beta2noise0.95_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_schedulephased_sigma2.0_beta2noise0.99_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_schedulephased_sigma2.0_beta2noise0.99_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_schedulephased_sigma2.0_beta2noise0.99_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_schedulephased_sigma2.0_beta2noise0.99_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/decoupling/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.05_seed0.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: part_b_diag"
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.05_seed0_smoke.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.05_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.05_seed1_smoke(1).csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.05_seed1_smoke.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.05_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.05_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.5_seed0.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: part_b_diag"
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.5_seed0_smoke(1).csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.5_seed0_smoke.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.5_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.5_seed1_smoke.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.5_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma0.5_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_nv_sigma2.0_seed0.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: part_b_diag"
+e2_noisy_gradient/logs/part_b/adam_nv_sigma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_sigma0.05_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_sigma0.05_seed0_smoke.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_sigma0.05_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_sigma0.05_seed1_smoke.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_sigma0.5_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_sigma0.5_seed0_smoke.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_sigma0.5_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_sigma0.5_seed1_smoke.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b/adam_sigma2.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_b/adam_sigma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/Label_Diagnostic/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+e2_noisy_gradient/logs/Label_Diagnostic/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+e2_noisy_gradient/logs/Label_Diagnostic/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+e2_noisy_gradient/logs/Label_Diagnostic/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+e2_noisy_gradient/logs/Label_Diagnostic/adam_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, Label_Diagnostic.zip>Label_Diagnostic, logs_exp07_canary"
+e2_noisy_gradient/logs/Label_Diagnostic/adam_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Label_Diagnostic.zip>Label_Diagnostic"
+e2_noisy_gradient/logs/Label_Diagnostic/adam_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Label_Diagnostic.zip>Label_Diagnostic"
+e2_noisy_gradient/logs/Label_Diagnostic/adam_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Label_Diagnostic.zip>Label_Diagnostic"
+e2_noisy_gradient/logs/Ablation/adam_nv_fixed_sigma0.5_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_fixed_sigma0.5_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_fixed_sigma0.5_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_fixed_sigma0.5_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_fixed_sigma2.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_fixed_sigma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma0.0_ln0.2_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma0.0_ln0.2_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma0.0_ln0.2_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma0.0_ln0.2_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma0.0_seed0.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: part_b_diag, E12"
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma0.0_seed1.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: E12"
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma0.0_seed2.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: E12"
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma0.0_seed3.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: E12"
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.0_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.0_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.0_seed4.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.0_seed6.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.5_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.5_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.5_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma0.5_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma1.0_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma1.0_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma2.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma2.0_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_nv_sigma2.0_gamma2.0_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_sigma0.0_ln0.2_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_sigma0.0_ln0.2_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_sigma0.0_ln0.2_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_sigma0.0_ln0.2_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/Ablation/adam_sigma0.0_seed0.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: E12"
+e2_noisy_gradient/logs/Ablation/adam_sigma0.0_seed1.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: E12"
+e2_noisy_gradient/logs/Ablation/adam_sigma0.0_seed2.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: E12"
+e2_noisy_gradient/logs/Ablation/adam_sigma0.0_seed3.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: E12"
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_seed0.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_seed1.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_seed2.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_seed3.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma0.0_seed0.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma0.0_seed1.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma0.0_seed2.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma0.0_seed3.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma2.0_responsesmooth_betamax0.999_seed0.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma2.0_responsesmooth_betamax0.999_seed1.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma2.0_responsesmooth_betamax0.999_seed2.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma2.0_responsesmooth_betamax0.999_seed3.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma2.0_seed0.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma2.0_seed1.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma2.0_seed2.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleconstant_sigma2.0_seed3.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleintermittent_sigma2.0_responsesmooth_betamax0.999_seed0.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleintermittent_sigma2.0_responsesmooth_betamax0.999_seed1.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleintermittent_sigma2.0_responsesmooth_betamax0.999_seed2.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleintermittent_sigma2.0_responsesmooth_betamax0.999_seed3.csv,OK,60,yes,
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleintermittent_sigma2.0_seed0.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Intermittent, dynamic_noise"
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleintermittent_sigma2.0_seed1.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Intermittent, dynamic_noise"
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleintermittent_sigma2.0_seed2.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Intermittent, dynamic_noise"
+e2_noisy_gradient/logs/controller_direction/adam_nv_scheduleintermittent_sigma2.0_seed3.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: Intermittent, dynamic_noise"
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed0_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed0_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed1_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed1_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed2_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed2_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed3_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed3_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed0_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed0_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed1_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed1_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed2_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed2_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed3_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed3_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_seed0_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_seed0_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_seed1_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_seed1_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_seed2_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_seed2_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_seed3_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleintermittent_sigma2.0_seed3_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed0_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed0_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed1_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed1_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed2_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed2_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed3_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed3_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed0_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed0_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed1_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed1_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed2_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed2_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed3_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed3_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_seed0_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_seed0_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_seed1_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_seed1_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_seed2_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_seed2_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_seed3_lagdiag_v2.csv,OK,60,yes,
+e2_noisy_gradient/logs/LagDiagnostic/adam_nv_scheduleramp_up_sigma2.0_seed3_lagdiag_v2_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed2.csv,OK,60,NO,byte-identical copy in: response_lag
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed3 (1).csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed3.csv,KNOWN_PARTIAL_SUPERSEDED,14,NO,e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed3.csv
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_beta20.99_seed2.csv,OK,60,NO,byte-identical copy in: response_lag
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_seed0.csv,OK,60,NO,"byte-identical copy in: Intermittent; SAME NAME, DIFFERENT CONTENT in: controller_direction"
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_seed1.csv,OK,60,NO,"byte-identical copy in: Intermittent; SAME NAME, DIFFERENT CONTENT in: controller_direction"
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_seed2.csv,OK,60,NO,"byte-identical copy in: Intermittent; SAME NAME, DIFFERENT CONTENT in: controller_direction"
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_seed3.csv,OK,60,NO,"byte-identical copy in: Intermittent; SAME NAME, DIFFERENT CONTENT in: controller_direction"
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_schedulephased_sigma2.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_schedulephased_sigma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_schedulephased_sigma2.0_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_schedulephased_sigma2.0_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleramp_up_sigma2.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleramp_up_sigma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleramp_up_sigma2.0_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleramp_up_sigma2.0_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_scheduleintermittent_sigma2.0_seed0.csv,OK,60,NO,byte-identical copy in: Intermittent
+e2_noisy_gradient/logs/dynamic_noise/adam_scheduleintermittent_sigma2.0_seed1.csv,OK,60,NO,byte-identical copy in: Intermittent
+e2_noisy_gradient/logs/dynamic_noise/adam_scheduleintermittent_sigma2.0_seed2.csv,OK,60,NO,byte-identical copy in: Intermittent
+e2_noisy_gradient/logs/dynamic_noise/adam_scheduleintermittent_sigma2.0_seed3.csv,OK,60,NO,byte-identical copy in: Intermittent
+e2_noisy_gradient/logs/dynamic_noise/adam_schedulephased_sigma2.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_schedulephased_sigma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_schedulephased_sigma2.0_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_schedulephased_sigma2.0_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_scheduleramp_up_sigma2.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_scheduleramp_up_sigma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_scheduleramp_up_sigma2.0_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/dynamic_noise/adam_scheduleramp_up_sigma2.0_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/calibration/calibration_report.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleconstant_sigma2.0_beta20.95_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleconstant_sigma2.0_beta20.95_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleconstant_sigma2.0_beta20.95_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleconstant_sigma2.0_beta20.95_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleconstant_sigma2.0_beta20.99_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleconstant_sigma2.0_beta20.99_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleconstant_sigma2.0_beta20.99_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleconstant_sigma2.0_beta20.99_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed2.csv,OK,60,NO,byte-identical copy in: dynamic_noise
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed3.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: dynamic_noise"
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.99_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.99_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.99_seed2.csv,OK,60,NO,byte-identical copy in: dynamic_noise
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.99_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_schedulephased_sigma2.0_beta20.95_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_schedulephased_sigma2.0_beta20.95_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_schedulephased_sigma2.0_beta20.95_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_schedulephased_sigma2.0_beta20.95_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_schedulephased_sigma2.0_beta20.99_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_schedulephased_sigma2.0_beta20.99_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_schedulephased_sigma2.0_beta20.99_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_schedulephased_sigma2.0_beta20.99_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleramp_up_sigma2.0_beta20.95_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleramp_up_sigma2.0_beta20.95_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleramp_up_sigma2.0_beta20.95_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleramp_up_sigma2.0_beta20.95_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleramp_up_sigma2.0_beta20.99_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleramp_up_sigma2.0_beta20.99_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleramp_up_sigma2.0_beta20.99_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/response_lag/adam_nv_scheduleramp_up_sigma2.0_beta20.99_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleconstant_sigma0.0_cifar100_seed0.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleconstant_sigma0.0_cifar100_seed1.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleconstant_sigma0.0_cifar100_seed2.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleconstant_sigma0.0_cifar100_seed3.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleconstant_sigma0.0_cifar100_seed4.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleconstant_sigma0.0_cifar100_seed5.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleconstant_sigma0.0_cifar100_seed6.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleconstant_sigma0.0_cifar100_seed7.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleintermittent_sigma2.0_cifar100_seed0.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleintermittent_sigma2.0_cifar100_seed1.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleintermittent_sigma2.0_cifar100_seed2.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_nv_scheduleintermittent_sigma2.0_cifar100_seed3.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleconstant_sigma0.0_cifar100_seed0.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleconstant_sigma0.0_cifar100_seed1.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleconstant_sigma0.0_cifar100_seed2.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleconstant_sigma0.0_cifar100_seed3.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleconstant_sigma0.0_cifar100_seed4.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleconstant_sigma0.0_cifar100_seed5.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleconstant_sigma0.0_cifar100_seed6.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleconstant_sigma0.0_cifar100_seed7.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleintermittent_sigma2.0_cifar100_seed0.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleintermittent_sigma2.0_cifar100_seed1.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleintermittent_sigma2.0_cifar100_seed2.csv,OK,60,yes,
+e2_noisy_gradient/logs/cifar100_generality/adam_scheduleintermittent_sigma2.0_cifar100_seed3.csv,OK,60,yes,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma0.05_seed0.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma0.05_seed0_steps.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma0.0_bs256_seed0.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma0.0_bs32_seed0.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma0.0_seed0.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma0.0_seed0_steps.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma0.5_seed0.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma0.5_seed0_steps.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma2.0_seed0.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_b_diag/adam_nv_sigma2.0_seed0_steps.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_c/adabelief_sigma0.0_ln0.2_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adabelief_sigma0.0_ln0.2_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adabelief_sigma0.0_ln0.2_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adabelief_sigma0.0_ln0.2_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adabelief_sigma2.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adabelief_sigma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adabelief_sigma2.0_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adabelief_sigma2.0_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adamw_sigma0.0_ln0.2_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adamw_sigma0.0_ln0.2_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adamw_sigma0.0_ln0.2_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adamw_sigma0.0_ln0.2_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adamw_sigma2.0_seed0.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adamw_sigma2.0_seed1.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adamw_sigma2.0_seed2.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_c/adamw_sigma2.0_seed3.csv,OK,60,NO,
+e2_noisy_gradient/logs/part_a/part_a_sigma0.0.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_a/part_a_sigma0.05.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/part_a/part_a_sigma0.5.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed0_lagdiag.csv,OK,60,NO,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.95_seed0_lagdiag_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed0_lagdiag.csv,OK,60,NO,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleintermittent_sigma2.0_beta2noise0.99_seed0_lagdiag_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleintermittent_sigma2.0_seed0_lagdiag (1).csv,OK,60,NO,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleintermittent_sigma2.0_seed0_lagdiag.csv,OK,60,NO,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleintermittent_sigma2.0_seed0_lagdiag_finegrained (1).csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleintermittent_sigma2.0_seed0_lagdiag_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed0_lagdiag.csv,OK,60,NO,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.95_seed0_lagdiag_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed0_lagdiag.csv,OK,60,NO,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleramp_up_sigma2.0_beta2noise0.99_seed0_lagdiag_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleramp_up_sigma2.0_seed0_lagdiag.csv,OK,60,NO,
+e2_noisy_gradient/logs/diagnose/adam_nv_scheduleramp_up_sigma2.0_seed0_lagdiag_finegrained.csv,EXCLUDED_AUXILIARY,,,
+e2_noisy_gradient/E12/adam_nv_sigma0.0_bs256_seed0.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: part_b_diag"
+e2_noisy_gradient/E12/adam_nv_sigma0.0_bs256_seed1.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_nv_sigma0.0_bs256_seed2.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_nv_sigma0.0_bs256_seed3.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_nv_sigma0.0_bs32_seed0.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: part_b_diag"
+e2_noisy_gradient/E12/adam_nv_sigma0.0_bs32_seed1.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_nv_sigma0.0_bs32_seed2.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_nv_sigma0.0_bs32_seed3.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_nv_sigma0.0_seed0.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: Ablation, part_b_diag"
+e2_noisy_gradient/E12/adam_nv_sigma0.0_seed1.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: Ablation"
+e2_noisy_gradient/E12/adam_nv_sigma0.0_seed2.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: Ablation"
+e2_noisy_gradient/E12/adam_nv_sigma0.0_seed3.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: Ablation"
+e2_noisy_gradient/E12/adam_sigma0.0_bs256_seed0.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_sigma0.0_bs256_seed1.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_sigma0.0_bs256_seed2.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_sigma0.0_bs256_seed3.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_sigma0.0_bs32_seed0.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_sigma0.0_bs32_seed1.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_sigma0.0_bs32_seed2.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_sigma0.0_bs32_seed3.csv,OK,60,NO,
+e2_noisy_gradient/E12/adam_sigma0.0_seed0.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: Ablation"
+e2_noisy_gradient/E12/adam_sigma0.0_seed1.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: Ablation"
+e2_noisy_gradient/E12/adam_sigma0.0_seed2.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: Ablation"
+e2_noisy_gradient/E12/adam_sigma0.0_seed3.csv,OK,60,NO,"SAME NAME, DIFFERENT CONTENT in: Ablation"
+benchmarks/results/optimizer_overhead_runs.csv,EXCLUDED_AUXILIARY,,,
+benchmarks/results/optimizer_overhead_runs_summary.csv,EXCLUDED_AUXILIARY,,,
+e1_convergence/e1_results_table.csv,EXCLUDED_AUXILIARY,,,
+e1_convergence/logs/adabelief_seed0.csv,OK,60,yes,
+e1_convergence/logs/adabelief_seed1.csv,OK,60,yes,
+e1_convergence/logs/adabelief_seed2.csv,OK,60,yes,
+e1_convergence/logs/adabelief_seed3.csv,OK,60,yes,
+e1_convergence/logs/adam_nv_seed0.csv,OK,60,yes,
+e1_convergence/logs/adam_nv_seed1.csv,OK,60,yes,
+e1_convergence/logs/adam_nv_seed2.csv,OK,60,yes,
+e1_convergence/logs/adam_nv_seed3.csv,OK,60,yes,
+e1_convergence/logs/adam_seed0.csv,OK,60,yes,
+e1_convergence/logs/adam_seed1.csv,OK,60,yes,
+e1_convergence/logs/adam_seed2.csv,OK,60,yes,
+e1_convergence/logs/adam_seed3.csv,OK,60,yes,
+e1_convergence/logs/adamw_seed0.csv,OK,60,yes,
+e1_convergence/logs/adamw_seed1.csv,OK,60,yes,
+e1_convergence/logs/adamw_seed2.csv,OK,60,yes,
+e1_convergence/logs/adamw_seed3.csv,OK,60,yes,
+reports/discrepancy_register.csv,EXCLUDED_AUXILIARY,33,,no epoch/val_acc columns
+reports/e13_e15_original_vs_corrected.csv,EXCLUDED_AUXILIARY,16,,no epoch/val_acc columns
+reports/e1_manuscript_vs_recomputed.csv,EXCLUDED_AUXILIARY,11,,no epoch/val_acc columns
+reports/metric_definition_sensitivity.csv,EXCLUDED_AUXILIARY,2,,no epoch/val_acc columns
+reports/paper_draft_claim_check.csv,EXCLUDED_AUXILIARY,102,,no epoch/val_acc columns
+reports/provenance_verification.csv,EXCLUDED_AUXILIARY,1260,,no epoch/val_acc columns
+reports/run_completeness.csv,EXCLUDED_AUXILIARY,735,,no epoch/val_acc columns
+zip:adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/log_exp07_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: log_exp07_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/log_exp07_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: log_exp07_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/log_exp07_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: log_exp07_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_C.zip>logs_exp11_fixed_C, exp11_logs_C.zip>logs_exp11_step_C, exp11_logs_C.zip>logs_exp11_fixed_C, exp11_logs_C.zip>logs_exp11_step_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/log_exp07_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: log_exp07_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_C.zip>logs_exp11_fixed_C, exp11_logs_C.zip>logs_exp11_step_C, exp11_logs_C.zip>logs_exp11_fixed_C, exp11_logs_C.zip>logs_exp11_step_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/logs_exp07_canary/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: logs_exp07_canary; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp07_log_C.zip>exp07_log_C/logs_exp07_canary/adam_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: logs_exp07_canary; SAME NAME, DIFFERENT CONTENT in: Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b070_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b070_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b070_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b070_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b078_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b078_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b078_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b078_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b078_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b078_A; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_A.zip>logs_exp08_b078_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp08_logs_A.zip>logs_exp08_b078_A; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b070_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_B; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b070_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_B; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b078_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b078_B; SAME NAME, DIFFERENT CONTENT in: exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b078_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b078_B; SAME NAME, DIFFERENT CONTENT in: exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b078_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b078_B; SAME NAME, DIFFERENT CONTENT in: exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp08_logs_B.zip>exp08_logs_B/logs_exp08_b078_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b078_B; SAME NAME, DIFFERENT CONTENT in: exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp09_logs_A.zip>logs_exp09_A/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed0.csv,OK,60,yes,byte-identical copy in: exp09_logs_A.zip>logs_exp09_A
+zip:adam-nv/e2_noisy_gradient/logs/exp09_logs_A.zip>logs_exp09_A/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed1.csv,OK,60,yes,byte-identical copy in: exp09_logs_A.zip>logs_exp09_A
+zip:adam-nv/e2_noisy_gradient/logs/exp09_logs_A.zip>logs_exp09_A/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed2.csv,OK,60,yes,byte-identical copy in: exp09_logs_A.zip>logs_exp09_A
+zip:adam-nv/e2_noisy_gradient/logs/exp09_logs_A.zip>logs_exp09_A/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed3.csv,OK,60,yes,byte-identical copy in: exp09_logs_A.zip>logs_exp09_A
+zip:adam-nv/e2_noisy_gradient/logs/exp09_logs_B.zip>logs_exp09_B/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed4.csv,OK,60,yes,byte-identical copy in: exp09_logs_B.zip>logs_exp09_B
+zip:adam-nv/e2_noisy_gradient/logs/exp09_logs_B.zip>logs_exp09_B/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed5.csv,OK,60,yes,byte-identical copy in: exp09_logs_B.zip>logs_exp09_B
+zip:adam-nv/e2_noisy_gradient/logs/exp09_logs_B.zip>logs_exp09_B/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed6.csv,OK,60,yes,byte-identical copy in: exp09_logs_B.zip>logs_exp09_B
+zip:adam-nv/e2_noisy_gradient/logs/exp09_logs_B.zip>logs_exp09_B/adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed7.csv,OK,60,yes,byte-identical copy in: exp09_logs_B.zip>logs_exp09_B
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed4.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed5.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed6.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed7.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed8.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_lr3e-3_seed9.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed4.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed5.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed6.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed7.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed8.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp10_logs_C.zip>logs_exp10_C/adam_nv_lr3e-3_seed9.csv,OK,60,yes,byte-identical copy in: exp10_logs_C.zip>logs_exp10_C
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, logs_exp07_canary, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_B.zip>logs_exp11_fixed_B, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_B.zip>logs_exp11_fixed_B, log_exp07_C, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_A.zip>logs_exp11_step_A/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: exp11_logs_A.zip>logs_exp11_step_A; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_B.zip>logs_exp11_fixed_B, log_exp07_C, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_C.zip>logs_exp11_none_C, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_C.zip>logs_exp11_none_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_A.zip>logs_exp11_step_A, log_exp07_C, exp11_logs_A.zip>logs_exp11_step_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_B.zip>logs_exp11_fixed_B/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: exp11_logs_B.zip>logs_exp11_fixed_B; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_A.zip>logs_exp11_step_A, log_exp07_C, exp11_logs_A.zip>logs_exp11_step_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_fixed_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_fixed_C; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_C.zip>logs_exp11_step_C, log_exp07_C, exp11_logs_C.zip>logs_exp11_step_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_fixed_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_fixed_C; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_C.zip>logs_exp11_step_C, log_exp07_C, exp11_logs_C.zip>logs_exp11_step_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_none_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_none_C; SAME NAME, DIFFERENT CONTENT in: logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, logs_exp07_canary, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_none_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_none_C; SAME NAME, DIFFERENT CONTENT in: exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B, Label_Diagnostic.zip>Label_Diagnostic, Label_Diagnostic, exp11_logs_A.zip>logs_exp11_step_A, exp11_logs_B.zip>logs_exp11_fixed_B"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_step_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_step_C; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_C.zip>logs_exp11_fixed_C, log_exp07_C, exp11_logs_C.zip>logs_exp11_fixed_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp11_logs_C.zip>logs_exp11_step_C/adam_nv_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: exp11_logs_C.zip>logs_exp11_step_C; SAME NAME, DIFFERENT CONTENT in: log_exp07_C, exp11_logs_C.zip>logs_exp11_fixed_C, log_exp07_C, exp11_logs_C.zip>logs_exp11_fixed_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_1.zip>logs_exp12_b092_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp12_logs_1.zip>logs_exp12_b092_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_1.zip>logs_exp12_b092_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp12_logs_1.zip>logs_exp12_b092_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_1.zip>logs_exp12_b092_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp12_logs_1.zip>logs_exp12_b092_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_1.zip>logs_exp12_b092_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp12_logs_1.zip>logs_exp12_b092_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_3.zip>logs_exp12_b095_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_2.zip>logs_exp12_b092_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: exp12_logs_2.zip>logs_exp12_b092_2; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_2.zip>logs_exp12_b092_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: exp12_logs_2.zip>logs_exp12_b092_2; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_2.zip>logs_exp12_b092_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: exp12_logs_2.zip>logs_exp12_b092_2; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_2.zip>logs_exp12_b092_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: exp12_logs_2.zip>logs_exp12_b092_2; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_3.zip>logs_exp12_b095_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: exp12_logs_3.zip>logs_exp12_b095_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_3.zip>logs_exp12_b095_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: exp12_logs_3.zip>logs_exp12_b095_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_3.zip>logs_exp12_b095_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: exp12_logs_3.zip>logs_exp12_b095_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_3.zip>logs_exp12_b095_1/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: exp12_logs_3.zip>logs_exp12_b095_1; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, logs_exp07_A.zip>logs_exp07_A"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_4.zip>logs_exp12_b095_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_4.zip>logs_exp12_b095_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_4.zip>logs_exp12_b095_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/exp12_logs_4.zip>logs_exp12_b095_2/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed0.csv,OK,60,yes,"byte-identical copy in: logs_exp07_A.zip>logs_exp07_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed1.csv,OK,60,yes,"byte-identical copy in: logs_exp07_A.zip>logs_exp07_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, exp08_logs_A.zip>logs_exp08_b070_A, exp08_logs_A.zip>logs_exp08_b078_A, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed2.csv,OK,60,yes,"byte-identical copy in: logs_exp07_A.zip>logs_exp07_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed3.csv,OK,60,yes,"byte-identical copy in: logs_exp07_A.zip>logs_exp07_A; SAME NAME, DIFFERENT CONTENT in: exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1, exp08_logs_A.zip>logs_exp08_b078_A, logs_exp08_b070_B, exp12_logs_1.zip>logs_exp12_b092_1, exp12_logs_3.zip>logs_exp12_b095_1"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,byte-identical copy in: logs_exp07_A.zip>logs_exp07_A
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_A.zip>logs_exp07_A/adam_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,byte-identical copy in: logs_exp07_A.zip>logs_exp07_A
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: logs_exp07_B.zip>logs_exp07_B; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: logs_exp07_B.zip>logs_exp07_B; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: logs_exp07_B.zip>logs_exp07_B; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: logs_exp07_B.zip>logs_exp07_B; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp08_b070_C.zip>logs_exp08_b070_C, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp08_b070_C.zip>logs_exp08_b070_C"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,byte-identical copy in: logs_exp07_B.zip>logs_exp07_B
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp07_B.zip>logs_exp07_B/adam_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,byte-identical copy in: logs_exp07_B.zip>logs_exp07_B
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp08_b070_C.zip>logs_exp08_b070_C/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed4.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_C.zip>logs_exp08_b070_C; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp08_b070_C.zip>logs_exp08_b070_C/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed5.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_C.zip>logs_exp08_b070_C; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp08_b070_C.zip>logs_exp08_b070_C/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed6.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_C.zip>logs_exp08_b070_C; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B"
+zip:adam-nv/e2_noisy_gradient/logs/logs_exp08_b070_C.zip>logs_exp08_b070_C/adam_nv_fixed_scheduleconstant_sigma0.0_ln0.2_seed7.csv,OK,60,yes,"byte-identical copy in: logs_exp08_b070_C.zip>logs_exp08_b070_C; SAME NAME, DIFFERENT CONTENT in: logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, logs_exp07_B.zip>logs_exp07_B, logs_exp08_b078_B, exp12_logs_2.zip>logs_exp12_b092_2, exp12_logs_4.zip>logs_exp12_b095_2, logs_exp07_B.zip>logs_exp07_B"
+zip:adam-nv/benchmarks/timing_v2_results.zip>results_v2/overhead_runs.csv,EXCLUDED_AUXILIARY,,,
+zip:adam-nv/benchmarks/timing_v2_results.zip>results_v2/overhead_summary.csv,EXCLUDED_AUXILIARY,,,
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed0.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed1.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed2.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed3.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed4.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed5.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed6.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed7.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed8.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_adamnv.zip>logs_exp03/adam_nv_basecorr_seed9.csv,OK,60,yes,byte-identical copy in: exp03_logs_adamnv.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed0.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed1.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed2.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed3.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed4.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed5.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed6.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed7.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed8.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp03_logs_gono.zip>logs_exp03/gono_exact_seed9.csv,OK,60,yes,byte-identical copy in: exp03_logs_gono.zip>logs_exp03
+zip:adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-3_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-3_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-3_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-3_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-4_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-4_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-4_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adam.zip>logs_exp05/adam_lr3e-4_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_adam.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-3_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-3_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-3_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-3_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-4_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-4_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-4_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_adamnv.zip>logs_exp05/adam_nv_lr3e-4_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_adamnv.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-3_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-3_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-3_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-3_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-4_seed0.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-4_seed1.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-4_seed2.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp05_logs_gono.zip>logs_exp05/gono_lr3e-4_seed3.csv,OK,60,yes,byte-identical copy in: exp05_logs_gono.zip>logs_exp05
+zip:adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed4.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed5.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed6.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed7.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed8.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv/e1_convergence/exp10_logs_A.zip>logs_exp10_A/adam_b083_lr3e-3_seed9.csv,OK,60,yes,byte-identical copy in: exp10_logs_A.zip>logs_exp10_A
+zip:adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed4.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed5.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed6.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed7.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed8.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+zip:adam-nv/e1_convergence/exp10_logs_B.zip>logs_exp10_B/adam_b080_lr3e-3_seed9.csv,OK,60,yes,byte-identical copy in: exp10_logs_B.zip>logs_exp10_B
+adam-nv/e1_convergence/logs/gono_seed0.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+adam-nv/e1_convergence/logs/gono_seed1.csv,KNOWN_PARTIAL_SUPERSEDED,59,yes,adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv
+adam-nv/e1_convergence/logs/gono_seed2.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+adam-nv/e1_convergence/logs/gono_seed3.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+adam-nv/e1_convergence/logs/gono_seed4.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+adam-nv/e1_convergence/logs/gono_seed5.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+adam-nv/e1_convergence/logs/gono_seed6.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+adam-nv/e1_convergence/logs/gono_seed7.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+adam-nv/e1_convergence/logs/gono_seed8.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+adam-nv/e1_convergence/logs/gono_seed9.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs"
+adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: logs, gono_seed_1, logs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed4.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed5.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed6.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed7.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed8.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_nv_seed9.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_seed4.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_seed5.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_seed6.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_seed7.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_seed8.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adam_seed9.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adamw_seed4.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adamw_seed5.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adamw_seed6.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adamw_seed7.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adamw_seed8.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+adam-nv/e1_convergence/AdditionalsLogs/adamw_seed9.csv,OK,60,yes,"SAME NAME, DIFFERENT CONTENT in: AdditionalsLogs"
+analysis/results/e13_e15_primary_statistics.csv,EXCLUDED_AUXILIARY,,,
+analysis/results_recomputed/e13_e15_final_statistics.csv,EXCLUDED_AUXILIARY,22,,no epoch/val_acc columns
+analysis/results_recomputed/e13_e15_last5_statistics.csv,EXCLUDED_AUXILIARY,22,,no epoch/val_acc columns
+analysis/results_recomputed/e1_excluded_runs_final.csv,EXCLUDED_AUXILIARY,1,,no epoch/val_acc columns
+analysis/results_recomputed/e1_excluded_runs_last5.csv,EXCLUDED_AUXILIARY,1,,no epoch/val_acc columns
+analysis/results_recomputed/e1_paired_final.csv,EXCLUDED_AUXILIARY,5,,no epoch/val_acc columns
+analysis/results_recomputed/e1_paired_last5.csv,EXCLUDED_AUXILIARY,5,,no epoch/val_acc columns
+analysis/results_recomputed/e1_paired_last5_with_supplement.csv,EXCLUDED_AUXILIARY,5,,no epoch/val_acc columns
+analysis/results_recomputed/e1_per_seed.csv,EXCLUDED_AUXILIARY,44,,no epoch/val_acc columns
+analysis/results_recomputed/e1_rerun_consistency.csv,EXCLUDED_AUXILIARY,1,,no epoch/val_acc columns
+analysis/results_recomputed/e1_summary_final.csv,EXCLUDED_AUXILIARY,5,,no epoch/val_acc columns
+analysis/results_recomputed/e1_summary_last5.csv,EXCLUDED_AUXILIARY,5,,no epoch/val_acc columns
+analysis/results_recomputed/e1_summary_last5_with_supplement.csv,EXCLUDED_AUXILIARY,5,,no epoch/val_acc columns

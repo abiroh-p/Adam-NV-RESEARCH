@@ -1,0 +1,26 @@
+[
+  {
+    "path": "e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed3.csv",
+    "sha256": "7d9653c1d62bd35f808922b42c467ce80a2f3d9895e911600d1fceb89be79299",
+    "status": "KNOWN_PARTIAL_SUPERSEDED",
+    "reason": "Stray 14-epoch partial of intermittent beta2=0.95 seed 3.",
+    "superseded_by": "e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed3.csv",
+    "evidence": "Its 14 rows equal the first 14 rows of the complete run in every column except epoch_time_sec (verified 2026-10-25 by pandas comparison). The complete run is also byte-identical to dynamic_noise/...seed3 (1).csv. Analyses use response_lag/ and never this file."
+  },
+  {
+    "path": "adam-nv/e1_convergence/logs/gono_seed1.csv",
+    "sha256": "3a5a771172b4e1ef84bf9c0b9590897bbe197c83afcf94ea153c6badd26837c7",
+    "status": "KNOWN_PARTIAL_SUPERSEDED",
+    "reason": "GONO seed 1 original CSV ends at epoch 59 (run finished; final row lost on export).",
+    "superseded_by": "adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv",
+    "evidence": "Author-supplied rerun (logs_gono_seed1_rerun, deterministic): 60 epochs; first 59 epochs equal the original in all 12 non-timing columns (max abs diff 0.0); epoch 60 equals the stdout-recovered values at 4 dp. Original is kept unmodified."
+  },
+  {
+    "path": "zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed1.csv",
+    "sha256": "59a3dec75c034f67a5a0d286fc5e1f3d34e3c984c3647746c1d50a1103168095",
+    "status": "KNOWN_PARTIAL_SUPERSEDED",
+    "reason": "GONO seed 1 original CSV ends at epoch 59 (run finished; final row lost on export).",
+    "superseded_by": "adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv",
+    "evidence": "Author-supplied rerun (logs_gono_seed1_rerun, deterministic): 60 epochs; first 59 epochs equal the original in all 12 non-timing columns (max abs diff 0.0); epoch 60 equals the stdout-recovered values at 4 dp. Original is kept unmodified."
+  }
+]

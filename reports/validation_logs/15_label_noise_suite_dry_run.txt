@@ -1,0 +1,7 @@
+$ /home/claude/venv/bin/python e2_noisy_gradient/src/run_label_noise_direction_suite.py --dry-run --seeds 0 1
+(cwd=.)
+
+[LabelNoiseDirection] (1/2) adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed0.csv
+    /home/claude/venv/bin/python part_b_resnet_v8.py --optimizer adam_nv --response-mode smooth --beta-max 0.999 --schedule constant --sigma 0.0 --label-noise 0.2 --label-diagnostic-interval 1 --seed 0 --epochs 60 --batch-size 128 --data-dir ../data --log-dir ../logs/label_noise_direction
+[LabelNoiseDirection] (2/2) adam_nv_scheduleconstant_sigma0.0_responsesmooth_betamax0.999_ln0.2_seed1.csv
+    /home/claude/venv/bin/python part_b_resnet_v8.py --optimizer adam_nv --response-mode smooth --beta-max 0.999 --schedule constant --sigma 0.0 --label-noise 0.2 --label-diagnostic-interval 1 --seed 1 --epochs 60 --batch-size 128 --data-dir ../data --log-dir ../logs/label_noise_direction

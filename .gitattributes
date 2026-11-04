@@ -1,0 +1,9 @@
+# Source files that carry recorded SHA-256 provenance must keep their exact bytes.
+# Do NOT let git rewrite line endings of historical sources or logs: a CRLF/LF change alters the hash.
+*.py   -text
+*.sh   -text
+*.csv  -text
+*.json -text
+*.txt  -text
+*.zip  binary
+*.npy  binary

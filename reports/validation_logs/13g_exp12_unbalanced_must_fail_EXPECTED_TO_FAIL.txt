@@ -1,0 +1,5 @@
+$ /home/claude/venv/bin/python analyze_exp12.py --orig-dir /home/claude/Adam-NV_Repaired/e2_noisy_gradient/logs/Label_Diagnostic --exp07-dirs /tmp/tmpd5gf4c6i/e7a/logs_exp07_A /tmp/tmpd5gf4c6i/e7b/logs_exp07_B /tmp/tmpd5gf4c6i/e7c/exp07_log_C/log_exp07_C --smooth-dirs /tmp/tmpd5gf4c6i/e9A/logs_exp09_A /tmp/tmpd5gf4c6i/e9B/logs_exp09_B --c095-dirs /tmp/tmpd5gf4c6i/e123/logs_exp12_b095_1 --strict-seeds
+(cwd=adam-nv/analysis)
+
+WARNING: unbalanced arms - missing seeds per arm: {'c092': [0, 1, 2, 3, 4, 5, 6, 7], 'c095': [4, 5, 6, 7]}
+WARNING: the decision printed below is NOT the pre-registered analysis (is a log folder missing?).

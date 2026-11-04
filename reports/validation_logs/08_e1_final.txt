@@ -1,0 +1,17 @@
+$ /home/claude/venv/bin/python analysis/analyze_e1.py --metric final
+(cwd=.)
+
+metric=final  use_supplement=False
+optimizer  n_seeds    mean  sd_ddof1  used_supplement
+     adam       10 0.93141   0.00099            False
+    adamw       10 0.93242   0.00159            False
+adabelief        4 0.92505   0.00194            False
+  adam_nv       10 0.93219   0.00161            False
+     gono       10 0.92445   0.00145            False
+             comparison  n_pairs  complete  mean_difference_percentage_points  ci95_low  ci95_high  p_paired_t_raw  p_sign_flip_exact  p_paired_t_holm_within_family
+     adam_nv minus adam       10      True                             0.0780   -0.0005     0.0020          0.1872             0.1875                         0.1872
+        gono minus adam       10      True                            -0.6960   -0.0080    -0.0059          0.0000             0.0020                         0.0000
+     adam_nv minus gono       10      True                             0.7740    0.0062     0.0093          0.0000             0.0020                         0.0000
+    adam_nv minus adamw       10      True                            -0.0230   -0.0018     0.0014          0.7518             0.7656                         0.7518
+adam_nv minus adabelief        4      True                             0.7725    0.0048     0.0107          0.0037             0.1250                         0.0073
+outputs in /home/claude/Adam-NV_Repaired/analysis/results_recomputed

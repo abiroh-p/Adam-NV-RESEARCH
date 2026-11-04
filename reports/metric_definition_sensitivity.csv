@@ -1,0 +1,3 @@
+experiment,comparison,mean_difference_percentage_points_last5,mean_difference_percentage_points_final,p_paired_t_holm_last5,p_paired_t_holm_final
+E14,ramp_up: coupled beta2=0.95 minus coupled beta2=0.999,-0.1609999999999917,-0.1250000000000029,0.0279014664845091,0.6792759455033776
+E15,ramp_up: decoupled beta2_noise=0.95 minus coupled beta2=0.95,0.1619999999999954,0.1475000000000059,0.276103081396895,0.004593302024762

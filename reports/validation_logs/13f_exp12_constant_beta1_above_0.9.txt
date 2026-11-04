@@ -1,0 +1,24 @@
+$ /home/claude/venv/bin/python analyze_exp12.py --orig-dir /home/claude/Adam-NV_Repaired/e2_noisy_gradient/logs/Label_Diagnostic --exp07-dirs /tmp/tmpd5gf4c6i/e7a/logs_exp07_A /tmp/tmpd5gf4c6i/e7b/logs_exp07_B /tmp/tmpd5gf4c6i/e7c/exp07_log_C/log_exp07_C --smooth-dirs /tmp/tmpd5gf4c6i/e9A/logs_exp09_A /tmp/tmpd5gf4c6i/e9B/logs_exp09_B --c092-dirs /tmp/tmpd5gf4c6i/e121/logs_exp12_b092_1 /tmp/tmpd5gf4c6i/e122/logs_exp12_b092_2 --c095-dirs /tmp/tmpd5gf4c6i/e123/logs_exp12_b095_1 /tmp/tmpd5gf4c6i/e124/logs_exp12_b095_2 --low-dirs-081 /tmp/tmpd5gf4c6i/e7a/logs_exp07_A /tmp/tmpd5gf4c6i/e7b/logs_exp07_B --low-dirs-078 /tmp/tmpd5gf4c6i/e8a/logs_exp08_b078_A /tmp/tmpd5gf4c6i/e8b/exp08_logs_B/logs_exp08_b078_B --low-dirs-070 /tmp/tmpd5gf4c6i/e8a/logs_exp08_b070_A /tmp/tmpd5gf4c6i/e8b/exp08_logs_B/logs_exp08_b070_B /tmp/tmpd5gf4c6i/e8c/logs_exp08_b070_C --strict-seeds
+(cwd=adam-nv/analysis)
+
+Memorization (corrupted examples fitted to wrong label, last-5, pp):
+  Adam (0.90)        n=8 mean=79.58 sd=1.01
+  constant 0.92      n=8 mean=80.03 sd=1.79
+  constant 0.95      n=8 mean=78.56 sd=1.06
+  Adam-NV (smooth)   n=8 mean=78.11 sd=0.89
+  Adam-NV            n=8 mean=83.49 sd=0.54
+
+Reference: smooth - Adam = -1.47 pp [-2.40, -0.55] (lower in 8/8 seeds)
+
+Paired contrasts (Holm over the four):
+  constant 0.92 - Adam (0.90): +0.441 pp  95% CI [-0.822, +1.705]  p=0.4362  p_Holm=0.5369  sign-flip p=0.4062  higher in 5/8
+  constant 0.95 - Adam (0.90): -1.025 pp  95% CI [-2.207, +0.156]  p=0.0793  p_Holm=0.2379  sign-flip p=0.0859  higher in 2/8
+  Adam-NV (smooth) - constant 0.92: -1.912 pp  95% CI [-3.522, -0.302]  p=0.0262  p_Holm=0.1048  sign-flip p=0.0312  higher in 1/8
+  Adam-NV (smooth) - constant 0.95: -0.446 pp  95% CI [-1.323, +0.431]  p=0.2684  p_Holm=0.5369  sign-flip p=0.2578  higher in 3/8
+
+Dose-response over all constant beta1 values (0.70 to 0.95, pooled runs): slope = -5.7 pp per unit beta1 (r = -0.38, p = 0.00804); descriptive only.
+
+=== Pre-registered decision ===
+  constant 0.92: F = +0.44 pp, D = -1.91 pp [-3.52, -0.30] -> ADAPTATION ADDS
+  constant 0.95: F = -1.03 pp, D = -0.45 pp [-1.32, +0.43] -> REPRODUCES
+  OUTCOME: PARTIAL / INCONCLUSIVE; read the dose-response and extend seeds.

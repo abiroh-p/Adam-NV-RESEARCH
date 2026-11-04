@@ -1,0 +1,187 @@
+{
+  "python": "3.12.3",
+  "steps": [
+    {
+      "step": "01_imports",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.5
+    },
+    {
+      "step": "02_unit_tests_all_roots",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 24.0
+    },
+    {
+      "step": "03_provenance_verify",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 0.5
+    },
+    {
+      "step": "04_provenance_verify_strict_EXPECTED_TO_FAIL",
+      "exit_code": 1,
+      "expected_nonzero": true,
+      "as_expected": true,
+      "seconds": 0.5
+    },
+    {
+      "step": "05_run_completeness",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 2.0
+    },
+    {
+      "step": "06_run_completeness_strict",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.9
+    },
+    {
+      "step": "07_e1_last5",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.5
+    },
+    {
+      "step": "08_e1_final",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.6
+    },
+    {
+      "step": "09_e1_last5_with_supplement",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.4
+    },
+    {
+      "step": "10_e13_e15_last5",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.6
+    },
+    {
+      "step": "11_e13_e15_final",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.6
+    },
+    {
+      "step": "12_exp06_sanity_exp05_logs",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.3
+    },
+    {
+      "step": "13_exp07",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.4
+    },
+    {
+      "step": "13b_exp08_dose_response",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.4
+    },
+    {
+      "step": "13c_exp09_smooth_vs_distrust",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.4
+    },
+    {
+      "step": "13d_exp10_ten_seeds_controls_seeds4to9_only",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.4
+    },
+    {
+      "step": "13e_exp11_beta1_shuffle",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.4
+    },
+    {
+      "step": "13f_exp12_constant_beta1_above_0.9",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 1.4
+    },
+    {
+      "step": "13g_exp12_unbalanced_must_fail_EXPECTED_TO_FAIL",
+      "exit_code": 2,
+      "expected_nonzero": true,
+      "as_expected": true,
+      "seconds": 1.6
+    },
+    {
+      "step": "13h_paper_draft_claim_check",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 2.1
+    },
+    {
+      "step": "14_supplement_rebuild_is_idempotent",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 0.4
+    },
+    {
+      "step": "15_label_noise_suite_dry_run",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 0.0
+    },
+    {
+      "step": "16_check_logs_hash_mode_warn_gono0",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 0.1
+    },
+    {
+      "step": "17_check_logs_strict_gono0_EXPECTED_TO_FAIL",
+      "exit_code": 1,
+      "expected_nonzero": true,
+      "as_expected": true,
+      "seconds": 0.1
+    },
+    {
+      "step": "17b_check_logs_gono_rerun_strict_hashes",
+      "exit_code": 0,
+      "expected_nonzero": false,
+      "as_expected": true,
+      "seconds": 0.1
+    },
+    {
+      "step": "18_check_logs_gono_seed1_EXPECTED_TO_FAIL",
+      "exit_code": 1,
+      "expected_nonzero": true,
+      "as_expected": true,
+      "seconds": 0.1
+    }
+  ]
+}

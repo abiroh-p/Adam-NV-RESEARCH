@@ -1,0 +1,6 @@
+$ /home/claude/venv/bin/python check_logs.py --log-dir ../logs/gono_seed_1 --optimizers gono --seeds 1 --expect-torch  --expect-torchvision 
+(cwd=adam-nv/e1_convergence/src)
+
+[PASS] gono_seed1
+
+ALL CHECKS PASSED

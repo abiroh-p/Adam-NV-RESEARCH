@@ -1,0 +1,179 @@
+"""Renders reports/DISCREPANCY_REGISTER.md and discrepancy_register.csv from one list (single source of truth)."""
+import csv
+from pathlib import Path
+R = Path(__file__).resolve().parent
+I = []
+def add(id, cls, sev, files, scope, evidence, action, rerun, validation, status):
+    I.append(dict(id=id, classification=cls, severity=sev, files=files, experiment_optimizer_seed=scope, evidence=evidence,
+                  corrective_action=action, requires_rerun=rerun, validation=validation, final_status=status))
+
+C_PROV="Reproducibility or dependency problem"; C_CODE="Source-code or configuration mismatch"; C_META="Missing or inconsistent metadata"
+C_LOG="Missing, truncated, duplicated, or incomplete logs"; C_STAT="Statistical-analysis inconsistency"; C_OBS="Obsolete or broken script"
+C_DOC="Documentation inconsistency"; C_UNV="Unverified issue requiring further evidence"
+
+add("PRV-01",C_CODE,"critical","adam-nv/e1_convergence/logs/gono_seed{0-9}_metadata.json; adam-nv/e1_convergence/AdditionalsLogs/{adam,adamw,adam_nv}_seed{4-9}_metadata.json (+ copies in adam-nv.zip)",
+ "E1 protocol v2: GONO seeds 0-9; Adam, AdamW, Adam-NV seeds 4-9 (28 runs)",
+ "Recorded code_sha256 for adam_nv.py (96971286…), gono.py (82665f3c…) and train_resnet.py (7b5134fd…) match NO source in the worktree, all 7 git commits, or any nested zip, also not under LF/CRLF/BOM variants (tools/provenance.py verify; /reports/provenance_verification.csv). experiment_metadata.py hash (92864b04…) does verify.",
+ "Cannot be repaired from available evidence. Provenance for these runs is marked UNVERIFIED_NOT_ARCHIVED; no newer file was associated with them. Verifier and check_logs.py now report this explicitly.",
+ "Would need the original Kaggle source files; rerun alone would not restore provenance of the existing logs","tools/provenance.py verify lists 28 runs x 3 files UNVERIFIED; tests test_known_unverified_hashes_are_still_reported_unverified, test_verify_walks_directories_and_nested_zips...","UNRESOLVED (provenance unverified)")
+add("PRV-02",C_CODE,"high","adam-nv/e1_convergence/exp03_logs_adamnv.zip; exp03_logs_gono.zip","EXP03: adam_nv_basecorr seeds 0-9 and gono_exact seeds 0-9 (20 runs)",
+ "train_resnet.py recorded as 5ac384a1…, not preserved anywhere. adam_nv.py (bcc7824b) and gono.py (326bcedc) of the same runs DO verify.",
+ "Marked unverified for train_resnet.py only. The EXP03 analysis script and PROTOCOL_V2.md are also missing (see OBS-02).","Original train_resnet.py needed","provenance verify: 20 runs UNVERIFIED for train_resnet.py only","UNRESOLVED (partial provenance)")
+add("PRV-03",C_META,"low","adam-nv/e1_convergence/exp05_logs_{adam,adamnv,gono}.zip metadata","EXP05 LR sensitivity (24 runs)",
+ "experiment_metadata.py hashes the file literally named train_resnet.py (_HASHED_FILES). The exp05 runs recorded 8aef0072…, which equals the bytes the repository stores only as train_resnet_ex.py; the repository's own train_resnet.py (2ab3aa02…) is referenced by NO run. No script in the repo copies/renames train_resnet_ex.py, so how the file came to carry that name at run time is not documented.",
+ "Archived the exact bytes as provenance/source_archive/train_resnet_ex.py@8aef0072; verifier reports VERIFIED_EXACT_RENAMED (bytes verified, name differs) rather than EXACT. The bytes are verified; the naming history is not.","No","provenance verify: 48 claims (24 runs x 2 copies) VERIFIED_EXACT_RENAMED","RESOLVED (bytes verified; naming history undocumented)")
+add("PRV-04",C_META,"high","e1_convergence/logs/*_metadata.json (16 runs); e2_noisy_gradient/logs/{Label_Diagnostic,LagDiagnostic,cifar100_generality,controller_direction}","E1 seeds 0-3 (all optimizers); E2 label diagnostics, lag, CIFAR-100, controller direction",
+ "No code_sha256 in metadata (hash recording was added later). check_runs also finds 209 per-epoch runs without any metadata sidecar (E12 24, Ablation 38, Intermittent 16, decoupling 32, diagnose 7, dynamic_noise 28, part_b 16, part_c 16, response_lag 32).",
+ "Cannot be recreated. Reported as NO_HASH_RECORDED / metadata=NO. Behavioural evidence only for Label_Diagnostic seed 0: the EXP07 canary re-ran seed 0 with hashed code and matched the original logs bit-for-bit (0.0 difference, Adam and Adam-NV). Seeds 1-3 are not covered by the canary.",
+ "No (cannot restore)","analyze_exp07.py canary output; tools/check_runs.py","DOCUMENTED (unverifiable)")
+add("PRV-05",C_OBS,"high","adam-nv/e1_convergence/src/check_logs.py","All runs checked with this script",
+ "The 'hash check' only tested that the code_sha256 field existed (line 63); it never compared the hash with any file.",
+ "Patched: compares every recorded hash with the registry (strict/warn/off). New tools/provenance.py scans metadata and _code_hashes_*.txt in directories and nested zips.",
+ "No","tests test_check_logs_strict_fails_on_unarchived_hash_and_warn_passes, test_check_logs_strict_passes_a_run_whose_hashes_are_archived, ProvenanceToolTests (6 tests)","RESOLVED")
+add("PRV-06",C_CODE,"medium","adam-nv/e1_convergence/src/adam_nv.py; e2_noisy_gradient/src/adam_nv.py; adam-nv/EXP01_RUNBOOK.md","E1 / E2 Adam-NV",
+ "Two optimizer versions: 2d6cd7df (no bias_correction option) and bcc7824b. EXP01 runbook says the E1 adam_nv.py 'produced seeds 0-3' and must not be replaced, but nested E1 adam_nv.py is byte-identical to bcc7824b, while the 28 PRV-01 runs recorded 96971286.",
+ "Archived both versions. New test shows 2d6cd7df and bcc7824b are bit-identical over 250 steps at default, smooth, decoupled and gamma=0 settings. This supports, but does NOT prove, equivalence with the lost 96971286 version.",
+ "No","tests/test_repair_optimizer.py::test_old_and_new_versions_are_bit_identical_at_default_settings","DOCUMENTED (equivalence with lost version unverified)")
+add("PRV-07",C_META,"medium","adam-nv/e2_noisy_gradient/src/noise.py; EXP08_RUNBOOK.md; adam-nv.zip","EXP07/EXP08 (all runs)",
+ "Pinned hash eee61201 differs from worktree noise.py (ca589851). The copy in adam-nv.zip has mixed line endings and matches the pin byte-for-byte; contents are identical after LF normalization. No .gitattributes existed, so git can silently change hashes.",
+ "Archived the exact historical bytes (noise.py@eee61201); added .gitattributes (-text for sources/logs) to stop line-ending rewrites; verifier distinguishes EXACT from EOL_NORMALIZED.","No","provenance verify: 13 noise.py claims VERIFIED_EXACT; test_line_ending_variant_is_eol_normalized_not_exact","RESOLVED")
+add("LOG-01",C_LOG,"high","adam-nv/e1_convergence/logs/gono_seed1.csv (and copy in adam-nv.zip)","E1 GONO seed 1",
+ "CSV ends at epoch 59. Suite status: success, 3029.5 s. stdout_gono_gpu0.txt line 127 contains the epoch-60 line (train_loss 0.0037, train_acc 0.9989, val_loss 0.4386, val_acc 0.9256); all 59 CSV epochs match stdout (0 mismatches).",
+ "Original CSV untouched. Added supplements/e1/gono_seed1_epoch60_from_stdout.json (+builder script). val_acc is exact (10,000 val images); other values are 4-dp rounded; lr, beta1_* and all other columns are NOT recoverable. Loaders refuse the 59-row file unless --use-supplement is given; affected outputs are flagged used_supplement.",
+ "A rerun is not possible (source provenance PRV-01, no GPU)","tests test_supplement_is_opt_in_fills_only_missing_epoch_and_never_overwrites; analyze_e1.py run with and without supplement (conclusions unchanged)","PARTIALLY RESOLVED (val_acc recovered; other columns lost)")
+add("LOG-02",C_DOC,"medium","README.md; RESEARCH_STATUS.md; ResearchPaper_Revised/IEEE_Access_Result_Revised.docx (section 4.9); e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed1.csv","E14/E15 intermittent beta2=0.95, Adam-NV seed 1",
+ "Docs say the run stops at epoch 32. The file has 60 contiguous epochs and has been in the repo since the initial commit. response_lag/ contains no metadata sidecars at all, so it cannot be shown to be the original run.",
+ "Docs corrected (README, RESEARCH_STATUS addendum). Recomputed statistics use the complete file. The manuscript (docx) was NOT edited; see reports/MANUSCRIPT_DISCREPANCIES.md.",
+ "No (rerun would replace, not verify, the evidence)","check_runs: status OK; analyze_e13_e15 publication mode succeeds","RESOLVED (documentation) / UNVERIFIED (run provenance)")
+add("LOG-03",C_LOG,"low","e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed3.csv (14 rows)","E14 intermittent beta2=0.95 seed 3",
+ "First 14 rows equal the first 14 rows of the complete seed-3 run in every column except epoch_time_sec; the '(1)' copy is byte-identical to response_lag/..seed3.csv.",
+ "File kept; registered in reports/known_superseded_logs.json with its SHA-256; check_runs reports KNOWN_PARTIAL_SUPERSEDED. Analyses read response_lag/.","No","tools/check_runs.py","RESOLVED")
+add("LOG-04",C_LOG,"low","e2_noisy_gradient/logs/{Intermittent,dynamic_noise,controller_direction,response_lag}","E13/E14",
+ "Intermittent/ duplicates dynamic_noise/ byte-for-byte; controller_direction/ reuses file names with different content. Analyses keyed by file name alone would mix them.",
+ "check_runs annotates duplicates and same-name-different-content files; analyses use explicit full paths.","No","tools/check_runs.py output","MITIGATED")
+add("LOG-05",C_LOG,"high","adam-nv/e1_convergence/ (AdaBelief) ","E1 AdaBelief",
+ "AdaBelief has seeds 0-3 only; Adam/AdamW/Adam-NV/GONO have 10. Paired comparison vs AdaBelief is limited to n=4 (sign-flip minimum p = 0.125).",
+ "Command documented in README (adabelief seeds 4-9). Not run.","Yes (GPU)","analyze_e1.py reports n_pairs=4","UNRESOLVED")
+add("LOG-06",C_LOG,"high","e2_noisy_gradient/src/run_controller_direction_suite.py; logs/controller_direction","Smooth vs distrust under label noise",
+ "The direction suite covers clean / constant-noise / intermittent only. No smooth-response label-noise run exists; Label_Diagnostic and EXP07/08 contain distrust-response (and constant-beta1) arms only.",
+ "Added e2_noisy_gradient/src/run_label_noise_direction_suite.py (8 runs, seeds 0-7, paired with existing Adam and distrust arms). Dry-run verified; NOT executed (no GPU, no CIFAR-10 data, v8 refuses --synthetic-data with label noise). Expected file names mirror v8's run_name code but were not produced by a real run.",
+ "Yes (GPU)","--dry-run prints commands; v8 SHA unchanged (242e6a77)","UNRESOLVED (prepared, not run)")
+add("STA-01",C_STAT,"high","analysis/results/e13_e15_primary_statistics.csv","E13-E15",
+ "Committed table is stale: built with 3 paired seeds (n_pairs=3, complete=False) for intermittent beta2=0.95 contrasts. Recomputation from logs with the unchanged analysis code gives 22/22 complete comparisons.",
+ "Original preserved. Corrected tables in analysis/results_recomputed/. 16 values in 4 comparisons changed (reports/e13_e15_original_vs_corrected.csv).","No","test_committed_recomputed_tables_match_a_fresh_recomputation","RESOLVED")
+add("STA-02",C_STAT,"high","analysis/analyze_e13_e15.py; adam-nv/analysis/analyze_exp06.py; e1_results_table.csv","All accuracy summaries",
+ "Final-epoch vs last-5-epoch accuracy were not distinguished in the analysis outputs (metric label 'trailing_5_epoch'; e1_results_table.csv column final_val_acc; analyze_exp06 uses final-epoch while E13-E15 use last-5).",
+ "run_io.py defines both metrics as separate functions; analyze_e13_e15.py has --metric last5|final with different output file names and metric labels; analyze_e1.py reports both. analyze_exp06/07/08 left unchanged (they state their metric).","No","test_final_epoch_and_last5_are_different_quantities; test_metric_switch_changes_the_computed_quantity","RESOLVED (code) / NEEDS AUTHOR DECISION (which metric governs)")
+add("STA-03",C_STAT,"high","analysis/results_recomputed/e13_e15_{last5,final}_statistics.csv","E14 ramp-up beta2=0.95; E15 ramp-up decoupled 0.95",
+ "Holm significance flips with the metric definition: E14 ramp-up 0.95: Holm p 0.028 (last-5) vs 0.679 (final); E15 ramp-up decoupled 0.95: 0.276 (last-5) vs 0.005 (final).",
+ "Both reported side by side (reports/metric_definition_sensitivity.csv). No conclusion was chosen, per the instruction to preserve documented decision rules.","No","Recomputation from raw logs","NEEDS AUTHOR DECISION")
+add("STA-04",C_STAT,"high","ResearchPaper_Revised/IEEE_Access_Result_Revised.docx table in 4.1","E1 table",
+ "Manuscript E1 values (Adam-NV 0.9337+/-0.0020 n=4; Adam 0.9319 n=2; AdamW 0.9314 n=2; AdaBelief 0.9267 n=2) are not reproduced by any seed subset of the logs. Seeds 0-3 last-5 means: Adam-NV 0.9327, Adam 0.9315, AdamW 0.9314, AdaBelief 0.9248. n=2 claims contradict logs for seeds 0-3 (4 per optimizer).",
+ "Recomputed tables in analysis/results_recomputed/e1_*; comparison in reports/e1_manuscript_vs_recomputed.csv. Manuscript not edited.","No","analyze_e1.py","OPEN (manuscript edit required by authors)")
+add("STA-05",C_STAT,"medium","e1_convergence/e1_results_table.csv","E1",
+ "SD column uses population SD (ddof=0) while all analysis code uses ddof=1; verified by recomputation (Adam-NV 0.0016 vs 0.0018). Generator script is not in the repo.",
+ "analyze_e1.py reports ddof=1 explicitly. Original table preserved.","No","per-seed recomputation","RESOLVED (new table) / original retained")
+add("STA-06",C_STAT,"medium","analysis/analyze_e1.py","E1 multiplicity",
+ "No runbook defines the E1 Holm family or an equivalence margin ('paired and equivalence tests' are promised but absent).",
+ "Proposed families marked family_status=proposed_pending_author_confirmation in outputs; no equivalence margin invented, no verdict issued.","No","output columns","NEEDS AUTHOR DECISION")
+add("STA-07",C_STAT,"low","analysis/analyze_e13_e15.py","E13/E14 constant arm",
+ "Constant-schedule default arm takes seeds 0-1 from part_b/ and seeds 2-3 from Ablation gamma=1.0 reruns (documented in a code comment as equivalent). Equivalence of the two sources is asserted, not tested here.",
+ "Noted only.","Unknown","-","UNVERIFIED")
+add("STA-08",C_STAT,"medium","adam-nv/analysis/analyze_exp07.py","EXP07/EXP08 label-noise analysis",
+ "The script printed a 'pre-registered decision' even when an arm lacked seeds: omitting the log_exp07_C folder (Adam-NV seeds 4-7) silently analysed Adam-NV with n=4 and gave M = +3.40 pp instead of the 8-seed +3.91 pp. This happened during the repair itself.",
+ "Added a loud unbalanced-arm WARNING and --strict-seeds (exit 2). The validation run uses --strict-seeds.","No","tests/test_repair_tools.py::Exp07SeedBalanceTest; validate_all step 13","RESOLVED")
+add("OBS-01",C_OBS,"medium","README.md; EXP01_RUNBOOK.md; EXP03_RUNBOOK.md; e2_noisy_gradient/src/analyze_e2.py","E1/E2",
+ "analyze_e1.py and analyze_e1_protocol_v2.py are referenced but missing; analyze_e2.py is a 0-byte file; README E1 commands cd into e1_convergence/src, which does not exist at top level.",
+ "Wrote analysis/analyze_e1.py (recomputation, NOT a reproduction of the lost script); fixed README paths; empty analyze_e2.py left as found and documented.","No","test_file_paths_named_in_docs_exist","RESOLVED (paths/scripts) ; lost scripts' numbers not reproducible")
+add("OBS-02",C_OBS,"medium","adam-nv/EXP03_RUNBOOK.md; adam-nv/e1_convergence/exp03_*.zip, exp05_*.zip","EXP03, EXP05",
+ "PROTOCOL_V2.md (the pre-registered hypotheses and analysis plan) and analyze_exp03/05 are absent from the repository; EXP03/05 logs exist only as zips.",
+ "Documented; EXP06 claim (+0.173 pt, p=0.031, 4/4) re-verified from exp05 zips with analyze_exp06.py (final-epoch metric).","Not applicable","analyze_exp06.py run on extracted logs","UNRESOLVED (documents not recoverable)")
+add("OPT-01",C_CODE,"medium","adam-nv/e2_noisy_gradient/src/adam_nv.py (docstring); e2_noisy_gradient/src/adam_nv.py","All Adam-NV runs",
+ "Docstring: gamma=0 'reduces exactly to Adam'. Measured (float64, 20 params): max |diff| to torch.optim.Adam is 4e-16 for <=150 steps, 1.4e-9 at 160, 6.3e-8 at 500, 2.8e-8 at 3000. Cause: P clamped at 1e-7 (0.9^t < 1e-7 after ~153 steps). The underflow RuntimeWarning also fires from step 132 even for Adam-equivalent settings (observed).",
+ "NOT changed (file is hash-pinned; changing it would invalidate provenance of EXP07/08). Behaviour pinned by tests; claim documented as approximate beyond ~150 steps. Algorithm unchanged; no experiment is affected materially (<=1e-7 relative).","No","tests test_gamma_zero_equals_torch_adam_within_clamp_horizon, test_gamma_zero_long_horizon_deviation_is_small_but_documented","DOCUMENTED (docstring overstated)")
+add("OPT-02",C_UNV,"low","tests/test_repair_optimizer.py","Optimizer verification limits",
+ "The independent NumPy reference was written from the code and docstring formulation by the repair author, not extracted from the paper's equations; Formulation/adam-NV_V1.py was not diffed against the paper.",
+ "Stated as a limitation.","No","-","UNVERIFIED")
+add("DOC-01",C_DOC,"medium","README.md; tests/; adam-nv/tests/","Test discoverability",
+ "Documented test command runs only tests/; nested adam-nv/tests (GONO, EXP06/07) must run with adam-nv/ as cwd and were never mentioned.",
+ "tools/run_all_tests.py runs both roots; README updated.","No","tools/run_all_tests.py","RESOLVED")
+add("DOC-02",C_DOC,"low","requirements.txt; check_logs.py defaults","Environment",
+ "Dependencies are ranges; experiments ran on torch 2.10.0+cu128 / torchvision 0.25.0+cu128 (check_logs.py defaults) but no lock or environment record exists.",
+ "environment/ENVIRONMENT.md records declared, experiment and validation environments; requirements.txt not tightened (would not change past results).","No","-","MITIGATED")
+
+# ---- updates after the author's 2026-10-25 push (commit ba29996 "exp9_10_11") ----
+def upd(id, **kw):
+    for i in I:
+        if i["id"] == id: i.update(kw); return
+    raise KeyError(id)
+def find(id): return next(i for i in I if i["id"] == id)
+find("PRV-01")["evidence"] += (" NEW EVIDENCE (push ba29996): the author's GONO seed-1 rerun, whose hashes all verify (adam_nv bcc7824b, gono 326bcedc, "
+    "train_resnet 2ab3aa02), reproduces the original seed-1 log bit-for-bit over epochs 1-59 (12 non-timing columns, max abs diff 0.0) although the original "
+    "run recorded the unarchived hashes. This is behavioural evidence that the lost versions behaved identically for GONO seed 1 on that stack; it does not "
+    "verify any hash and covers one seed only.")
+find("PRV-03")["evidence"] = find("PRV-03")["evidence"].replace("is referenced by NO run","was referenced by no run at audit time; since push ba29996 it is recorded by the GONO seed-1 rerun and by EXP10 and is archived as train_resnet.py@2ab3aa02")
+find("PRV-03")["evidence"] += " Push ba29996 DELETED train_resnet_ex.py from the working tree; its bytes remain in git history, in the newer adam-nv.zip and in provenance/source_archive, and the repaired tree keeps the file."
+find("PRV-04")["evidence"] = ("96 runs have neither a per-run hash nor a folder-level _code_hashes file: E1 seeds 0-3 (16), Label_Diagnostic (8), LagDiagnostic (24), "
+    "cifar100_generality (24), controller_direction (24). EXP07/08/09 runs have no per-run hash but are covered by verified folder-level _code_hashes files "
+    "(verifier verdict COVERED_BY_FOLDER_HASHES; weaker than a per-run hash). Separately, 209 per-epoch runs have no metadata sidecar (E12 24, Ablation 38, "
+    "Intermittent 16, decoupling 32, diagnose 7, dynamic_noise 28, part_b 16, part_c 16, response_lag 32). Behavioural evidence exists only for Label_Diagnostic "
+    "seed 0 (EXP07 canary re-run: bit-identical, Adam and Adam-NV).")
+upd("LOG-01", evidence=find("LOG-01")["evidence"] + " UPDATE (push ba29996): the author reran GONO seed 1 (adam-nv/e1_convergence/logs/gono_seed_1/, deterministic, all four hashes verify). The rerun has 60 epochs; epochs 1-59 equal the original in all 12 non-timing columns (max abs diff 0.0); epoch 60 (val_acc 0.9256, train_acc 0.99892, val_loss 0.438588, train_loss 0.003655) equals the stdout-recovered values at 4 dp.",
+    corrective_action="Complete rerun adopted by analysis/analyze_e1.py ONLY after a per-run consistency check (original kept, registered as KNOWN_PARTIAL_SUPERSEDED, both copies); the stdout supplement is retained as an independently corroborated record. E1 GONO now has 10 seeds. Last-5 mean via rerun (0.92445) equals the supplement route.",
+    requires_rerun="Done by the author, not by the repair",
+    validation="analysis/results_recomputed/e1_rerun_consistency.csv; tests ZipScanAndRerunPolicyTests (consistent merge, refusal on inconsistency, original wins); validate_all steps 17b, 18",
+    final_status="RESOLVED (by author-supplied rerun)")
+upd("LOG-05", evidence=find("LOG-05")["evidence"] + " The EXP10 runbook refers to an 'AdaBelief extension (hash 2ab3aa02)', which implies such runs exist, but no AdaBelief seed >=4 log is anywhere in the repository (checked loose files and all zips).")
+upd("LOG-06", evidence="UPDATE (push ba29996): Experiment 9 supplies the missing arm: 8 complete seeds (0-7) of Adam-NV --response-mode smooth, 20% label noise, deterministic, in adam-nv/e2_noisy_gradient/logs/exp09_logs_{A,B}.zip. All five folder-level hashes (242e6a77, bcc7824b, 90e11e2c, eee61201, ab020aaf) verify against the archived sources; all runs have 60 contiguous epochs and metadata. Re-analysis with analyze_exp09.py: M = +3.91 pp, F (smooth - Adam) = -1.47 pp, D (distrust - smooth) = +5.38 pp, CI [+4.55, +6.21]; the script's pre-registered outcome: DISTRUST DIRECTION DRIVES THE EFFECT. The file names predicted by the repair's own suite matched the real EXP09 outputs.",
+    corrective_action="No repair action needed; the data came from the author. The repair's run_label_noise_direction_suite.py is marked SUPERSEDED. Re-analysis recorded in validation step 13c.",
+    requires_rerun="Done by the author, not by the repair", validation="check_runs (zip scan): all 8 OK; provenance verify: folder hashes VERIFIED_EXACT; analyze_exp09.py output",
+    final_status="RESOLVED (by author-supplied EXP09 data)")
+add("DAT-01",C_LOG,"high","adam-nv/e1_convergence/exp10_logs_{A,B}.zip; (absent) exp10_logs_C.zip; (absent) Exp.6 logs","EXP10: lr 3e-3 10-seed extension (Adam, Adam-NV, Adam b0.83, Adam b0.80)",
+ "Present and verified: adam_b083 and adam_b080 seeds 4-9 (12 runs; 60 epochs; hashes train_resnet 2ab3aa02, adam_nv bcc7824b, gono 326bcedc, experiment_metadata 92864b04 all verify). Absent: Adam and Adam-NV seeds 4-9 (Account C, exp10_logs_C.zip) and the Exp.6 logs (adam_b083/adam_b080 seeds 0-3). analyze_exp10.py correctly declines to apply the pre-registered rule ('Not enough complete arms/seeds'); on available data Adam-NV - Adam (seeds 0-3) = +0.197 pp, matching the runbook.",
+ "Nothing invented. The pre-registered EXP10 decision cannot be computed until the missing logs are pushed.","Not by the repair: logs exist elsewhere or must be produced (GPU)","validate_all step 13d (script declines)","UNRESOLVED (logs not in repository)")
+add("DAT-02",C_DOC,"low","adam-nv/e1_convergence/src/train_resnet_ex.py","EXP05 provenance",
+ "Push ba29996 deleted the file whose bytes (8aef0072) verify the EXP05 hashes.","Bytes preserved (provenance/source_archive, newer adam-nv.zip, git history). The repaired tree keeps the file in place.","No","provenance verify: 48 VERIFIED_EXACT_RENAMED unchanged","RESOLVED (preserved)")
+add("DAT-03",C_UNV,"medium","adam-nv/e2_noisy_gradient/src/{adam_nv_shuffle.py,part_b_resnet_v8_shuffle.py,check_exp11_logs.py,run_exp11_beta1_shuffle.sh}; adam-nv/analysis/analyze_exp11.py; adam-nv/EXP11_RUNBOOK.md","EXP11 beta1 shuffle control",
+ "Code, runbook, analysis script and 7 unit tests were pushed; no EXP11 logs exist. The 7 new tests pass (nested suite 19 -> 26). analyze_exp11.py was not run on data; the new sources are not archived because no run records their hashes yet.",
+ "None possible without logs. When EXP11 runs exist, archive the hashed sources (name@sha8) and rebuild the registry.","Yes (GPU)","nested test suite","UNVERIFIED (no data)")
+upd("STA-08", corrective_action=find("STA-08")["corrective_action"])
+
+# ---- updates after the author's second push (commits 8485e57 "exp12", c534451 "11_12") ----
+upd("DAT-01", classification=C_LOG, final_status="PARTIALLY RESOLVED (Exp.6 control logs still missing)",
+    evidence="UPDATE (push c534451): exp10_logs_C.zip (Adam and Adam-NV lr 3e-3, seeds 4-9; 24 runs) is now in the repository; all hashes verify and all runs are complete. With it, analyze_exp10.py gives Adam-NV - Adam over ten seeds = +0.172 pp, CI [+0.049, +0.294], raw p 0.0114, Holm 0.0572, higher in 9/10 (final-epoch: +0.159, Holm 0.128); seeds 4-9 alone: +0.155 [-0.081, +0.390], 5/6. STILL ABSENT: the Exp.6 logs (adam_b083 / adam_b080, seeds 0-3). Constants therefore have only 6 seeds (4-9): -0.020 and -0.026 pp vs Adam; the pre-registered decision is reported by the script as INCONCLUSIVE and 'provisional' (fewer than 10 paired seeds).",
+    corrective_action="Nothing invented. The ten-seed constant-beta1 contrasts and the 'Adam-NV minus constants' contrasts cannot be recomputed until the Exp.6 logs are pushed.")
+upd("DAT-03", classification=C_LOG, severity="low", final_status="RESOLVED (by author-supplied EXP11 logs)",
+    evidence="UPDATE (push c534451): EXP11 logs are present: 36 runs (shuffle/step, shuffle/fixed, shuffle/none; 8 seeds each, 12 per zip), all complete. Their folder-level hashes name adam_nv_shuffle.py (8e4df34c) and part_b_resnet_v8_shuffle.py (b8612dff); the repository's working-tree files hash to exactly those values, so both were archived and now verify. analyze_exp11.py reproduces the reference M = +3.909 pp; its own outcome line is 'INCONCLUSIVE' (shuffle/step F = +2.40, D = +1.51 [+0.93,+2.08]; shuffle/fixed F = +2.81, D = +1.10 [+0.39,+1.81]). The 7 EXP11 unit tests pass.",
+    corrective_action="Archived adam_nv_shuffle.py@8e4df34c and part_b_resnet_v8_shuffle.py@b8612dff; registry rebuilt.", validation="provenance verify (EXP11 folders covered, claims exact); check_runs zip scan: 36 OK; validate_all step 13e")
+add("DAT-04",C_LOG,"low","adam-nv/e2_noisy_gradient/logs/exp12_logs_{1,2,3,4}.zip; adam-nv/analysis/analyze_exp12.py","EXP12: constant beta1 0.92 / 0.95 under 20% label noise (16 runs, seeds 0-7)",
+ "All 16 runs complete (60 epochs, metadata present, deterministic); the five pinned folder hashes verify. The 'adam-nv.zip' snapshot also holds nested copies of each zip (every run appears twice in scans). analyze_exp12.py: constant 0.92 - Adam = +0.44 pp [-0.82,+1.71]; constant 0.95 - Adam = -1.03 [-2.21,+0.16]; smooth - const 0.92 = -1.91 [-3.52,-0.30] (Holm 0.10); smooth - const 0.95 = -0.45 [-1.32,+0.43]; script outcome: PARTIAL / INCONCLUSIVE. File names carry no beta1, so analyses must pass each call's folder explicitly.",
+ "None needed. Results recorded, not interpreted.","No","validate_all steps 13f (balanced, --strict-seeds) and 13g (unbalanced must fail)","RESOLVED (data verified)")
+add("DAT-05",C_UNV,"low","adam-nv/benchmarks/timing_v2_results.zip; adam-nv/benchmarks/benchmark_optimizer_overhead_v2.py; adam-nv/TIMING_RUNBOOK.md","Optimizer overhead (one Tesla T4 session, 20 rounds)",
+ "The benchmark script's hash (fb71196a) matches the working-tree file and is now archived. Summary values reproduce the draft's text: total step 126.5 vs 108.0 ms (+17.1%, CI [16.9,17.5]%), optimizer step 27.3 vs 3.8 ms (7.2x), state 170.5 vs 85.3 MiB. Timings depend on the hardware/session and cannot be reproduced here (no GPU).",
+ "Archived the benchmark source; claims checked against the stored summary only.","Yes (GPU) to reproduce","reports/paper_draft_claim_check.csv","UNVERIFIED (hardware-specific; summary consistent)")
+add("DOC-03",C_DOC,"medium","adam-nv/paperdraft/adamnv_paper_draft.pdf","Paper draft (all sections with numbers)",
+ "Recomputed from raw logs by reports/_build_paper_check.py: 78 claims MATCH at the draft's printed precision; 6 NOT VERIFIABLE; 1 DIFFERS. DIFFERS: Table I lists the overhead benchmark as '10 repeats' while the draft's own Section VII and the stored results say 20 rounds. NOT VERIFIABLE: AdaBelief 10-seed mean/SD and contrast (repository has 4 AdaBelief seeds; 4-seed values are -0.66 [-0.83,-0.50] vs Adam, mean 92.48); constant-beta1 0.83/0.80 ten-seed contrasts and Adam-NV-minus-constants (Exp.6 logs missing); the element-level beta1 distribution table. The draft already uses the CORRECTED E14/E15 values (+0.44 pp, raw p 0.035, Holm 0.25), not the stale committed CSV. It also correctly states that one GONO log lost its final row and the repeat reproduced the other 59 epochs.",
+ "Report only (reports/PAPER_DRAFT_CHECK.md, .csv). The draft was not edited.","No","python reports/_build_paper_check.py","OPEN (author edit of Table I; 6 claims need missing logs)")
+find("LOG-05")["evidence"] += " The paper draft (Table II, section V.A) reports AdaBelief over 10 seeds (92.44 +/- 0.17; -0.71 pp vs Adam), so those logs exist outside the repository."
+find("STA-08")["evidence"] += " The same gap was found in analyze_exp12.py (constant-0.95 arm at n=4 produced a 'PARTIAL / INCONCLUSIVE' outcome with no warning) and exists in analyze_exp08/09/11 by construction."
+upd("STA-08", corrective_action="Added one shared check_seed_balance() (analyze_exp07.py) with a loud unbalanced-arm WARNING and --strict-seeds (exit 2), called from analyze_exp07, 08, 09, 11 and 12. validate_all runs them with --strict-seeds.",
+    validation="tests: Exp07SeedBalanceTest, SeedGuardAcrossExperimentScriptsTests; validate_all steps 13, 13b, 13c, 13e, 13f, 13g (negative control)")
+
+upd("DOC-03", files="adam-nv/paperdraft/adamnv_paper_draft.pdf (newer, in repo); adam-nv/paperdraft/adamnv_paper_draft_uploaded_20261026T0658Z.pdf (older, supplied separately)",
+    evidence="Recomputed from raw logs by reports/_build_paper_check.py over the claims of both versions: 95 MATCH at printed precision; 6 NOT VERIFIABLE; 1 DIFFERS. DIFFERS: Table I lists the overhead benchmark as '10 repeats' while the newer draft's own Section VII and the stored v2 results say 20 rounds (the older draft's '10 repeats' fits its own v1 benchmark, whose results are not in the repository). NOT VERIFIABLE: AdaBelief over 10 seeds (repository has 4; their values: mean 92.48, -0.66 pp [-0.83,-0.50] vs Adam, epochs-to-90% / AUC); constant-beta1 0.83/0.80 ten-seed contrasts and Adam-NV-minus-constants (Exp.6 logs missing); and, for the older draft only, the v1 timing numbers (31.0 vs 4.2 ms; 127.4 vs 105.5 ms; +20.8%). VERIFIED, including items first thought unverifiable: Table VII element-level beta1 distribution (reproduces exactly from the EXP11 'none' runs' beta1_dist_*.jsonl; that arm is also bit-identical to the original Adam-NV label-noise runs), Table II epochs-to-90% and validation-loss AUC, the GONO exact-correction variant, and the logged beta1 statistics. The drafts already use the CORRECTED E14/E15 values, not the stale committed CSV, and correctly state that a GONO log lost its final row and the repeat matched the other 59 epochs. The older draft's TODO to reconcile source files with the logged hashes can only be met partially (see PRV-01/02/04: 48 runs unreproducible, 96 with no hash).",
+    corrective_action="Report only (reports/PAPER_DRAFT_CHECK.md, paper_draft_claim_check.csv, UPLOADED_DRAFT_COMPARISON.md). Neither draft was edited.")
+fields=["id","classification","severity","files","experiment_optimizer_seed","evidence","corrective_action","requires_rerun","validation","final_status"]
+with open(R/"discrepancy_register.csv","w",newline="",encoding="utf-8") as fh:
+    w=csv.DictWriter(fh,fieldnames=fields); w.writeheader(); w.writerows(I)
+out=["# Discrepancy register","","Audit date 2026-10-25. Evidence commands and outputs are in `reports/` (`provenance_verification.csv`, `run_completeness.csv`, `*_original_vs_corrected.csv`, `validation_logs/`).",
+ "Status vocabulary: **RESOLVED** (fixed and checked), **PARTIALLY RESOLVED**, **MITIGATED** (risk reduced, cause remains), **DOCUMENTED** (cannot be fixed; recorded), **UNVERIFIED**, **UNRESOLVED**, **NEEDS AUTHOR DECISION**, **OPEN** (change outside the repo, e.g. manuscript).",""]
+cnt={}
+for i in I: cnt[i["final_status"].split(" (")[0].split(" /")[0]]=cnt.get(i["final_status"].split(" (")[0].split(" /")[0],0)+1
+out+=["| ID | Severity | Final status |","|---|---|---|"]+[f"| {i['id']} | {i['severity']} | {i['final_status']} |" for i in I]+[""]
+for i in I:
+    out+=[f"## {i['id']} — {i['classification']} — severity: {i['severity']}","",
+      f"- **Affected files:** {i['files']}",f"- **Experiment / optimizer / seed:** {i['experiment_optimizer_seed']}",
+      f"- **Evidence:** {i['evidence']}",f"- **Corrective action:** {i['corrective_action']}",
+      f"- **Requires experiment rerun:** {i['requires_rerun']}",f"- **Validation:** {i['validation']}",f"- **Final status:** **{i['final_status']}**",""]
+(R/"DISCREPANCY_REGISTER.md").write_text("\n".join(out),encoding="utf-8")
+print(len(I),"issues")

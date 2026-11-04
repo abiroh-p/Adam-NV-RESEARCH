@@ -1,0 +1,12 @@
+optimizer,manuscript_mean,manuscript_sd,manuscript_n,recomputed_subset,n,recomputed_last5_mean,recomputed_sd_ddof1
+adam_nv,0.9337,0.002,4,seeds 0-3,4,0.9327,0.0018
+adam_nv,0.9337,0.002,4,all available seeds,10,0.932,0.0015
+adam,0.9319,0.0012,2,seeds 0-3,4,0.9315,0.0015
+adam,0.9319,0.0012,2,seeds 0-1,2,0.9315,0.0011
+adam,0.9319,0.0012,2,all available seeds,10,0.9315,0.0011
+adamw,0.9314,0.0017,2,seeds 0-3,4,0.9314,0.0009
+adamw,0.9314,0.0017,2,seeds 0-1,2,0.9313,0.0015
+adamw,0.9314,0.0017,2,all available seeds,10,0.9322,0.0015
+adabelief,0.9267,0.0,2,seeds 0-3,4,0.9248,0.0021
+adabelief,0.9267,0.0,2,seeds 0-1,2,0.9253,0.0002
+adabelief,0.9267,0.0,2,all available seeds,4,0.9248,0.0021

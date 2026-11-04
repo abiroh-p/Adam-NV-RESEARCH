@@ -1,0 +1,6 @@
+optimizer,metric,n_seeds,seeds,mean,sd_ddof1,min,max,used_supplement
+adam,final_epoch_val_accuracy,10,0 1 2 3 4 5 6 7 8 9,0.93141,0.0009893319856235229,0.9297,0.9328,False
+adamw,final_epoch_val_accuracy,10,0 1 2 3 4 5 6 7 8 9,0.9324200000000001,0.001588710168658847,0.9295,0.935,False
+adabelief,final_epoch_val_accuracy,4,0 1 2 3,0.92505,0.0019416487838947577,0.9224,0.9266,False
+adam_nv,final_epoch_val_accuracy,10,0 1 2 3 4 5 6 7 8 9,0.93219,0.0016086225992030165,0.93,0.9354,False
+gono,final_epoch_val_accuracy,10,0 1 2 3 4 5 6 7 8 9,0.92445,0.0014516274391944569,0.9207,0.9257,False

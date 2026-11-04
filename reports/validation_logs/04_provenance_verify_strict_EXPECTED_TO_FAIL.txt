@@ -1,0 +1,10 @@
+$ /home/claude/venv/bin/python tools/provenance.py verify --strict
+(cwd=.)
+
+claims scanned: 1260
+  COVERED_BY_FOLDER_HASHES     148
+  NO_HASH_RECORDED             104
+  UNVERIFIED_NOT_ARCHIVED      208
+  VERIFIED_EXACT               752
+  VERIFIED_EXACT_RENAMED       48
+STRICT: 312 claim(s) not verified

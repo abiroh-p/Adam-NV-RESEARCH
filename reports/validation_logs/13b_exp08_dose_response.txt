@@ -1,0 +1,22 @@
+$ /home/claude/venv/bin/python analyze_exp08.py --orig-dir /home/claude/Adam-NV_Repaired/e2_noisy_gradient/logs/Label_Diagnostic --exp07-dirs /tmp/tmpd5gf4c6i/e7a/logs_exp07_A /tmp/tmpd5gf4c6i/e7b/logs_exp07_B /tmp/tmpd5gf4c6i/e7c/exp07_log_C/log_exp07_C --c078-dirs /tmp/tmpd5gf4c6i/e8a/logs_exp08_b078_A /tmp/tmpd5gf4c6i/e8b/exp08_logs_B/logs_exp08_b078_B --c070-dirs /tmp/tmpd5gf4c6i/e8a/logs_exp08_b070_A /tmp/tmpd5gf4c6i/e8b/exp08_logs_B/logs_exp08_b070_B /tmp/tmpd5gf4c6i/e8c/logs_exp08_b070_C --strict-seeds
+(cwd=adam-nv/analysis)
+
+Memorization (corrupted examples fitted to wrong label, last-5, pp):
+  Adam (0.90)     n=8 mean=79.58 sd=1.01
+  constant 0.81   n=8 mean=80.22 sd=0.99
+  constant 0.78   n=8 mean=80.35 sd=1.11
+  constant 0.70   n=8 mean=80.41 sd=1.30
+  Adam-NV         n=8 mean=83.49 sd=0.54
+
+Reference effect M = Adam-NV - Adam: +3.91 pp [+3.11, +4.71] (8/8 seeds)
+
+Paired contrasts (Holm over the four):
+  constant 0.78 - Adam (0.90): +0.766 pp  95% CI [-0.454, +1.985]  p=0.1813  p_Holm=0.3625  sign-flip p=0.1719  higher in 6/8
+  constant 0.70 - Adam (0.90): +0.829 pp  95% CI [-0.566, +2.223]  p=0.2028  p_Holm=0.3625  sign-flip p=0.2109  higher in 6/8
+  Adam-NV - constant 0.78: +3.143 pp  95% CI [+2.155, +4.131]  p=0.0001  p_Holm=0.0005  sign-flip p=0.0078  higher in 8/8
+  Adam-NV - constant 0.70: +3.080 pp  95% CI [+1.924, +4.235]  p=0.0004  p_Holm=0.0012  sign-flip p=0.0078  higher in 8/8
+
+Dose-response over constant beta1 (all runs pooled): slope = -4.2 pp per unit beta1 (r = -0.28, p = 0.124); a negative slope means lower beta1 gives more memorization. Descriptive only.
+
+=== Pre-registered decision ===
+  OUTCOME: ADAPTATION BEYOND ANY CONSTANT BETA1 (both controls < 0.25*M, D CIs above 0)

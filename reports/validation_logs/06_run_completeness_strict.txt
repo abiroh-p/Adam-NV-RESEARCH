@@ -1,0 +1,11 @@
+$ /home/claude/venv/bin/python tools/check_runs.py --strict
+(cwd=.)
+
+csv files examined: 735
+  EXCLUDED_AUXILIARY                 80
+  KNOWN_PARTIAL_SUPERSEDED           3
+  OK                                 652
+  per-epoch runs without a metadata sidecar: 209
+  [KNOWN_PARTIAL_SUPERSEDED] zip:adam-nv.zip>adam-nv/e1_convergence/logs/gono_seed1.csv  adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv
+  [KNOWN_PARTIAL_SUPERSEDED] e2_noisy_gradient/logs/dynamic_noise/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed3.csv  e2_noisy_gradient/logs/response_lag/adam_nv_scheduleintermittent_sigma2.0_beta20.95_seed3.csv
+  [KNOWN_PARTIAL_SUPERSEDED] adam-nv/e1_convergence/logs/gono_seed1.csv  adam-nv/e1_convergence/logs/gono_seed_1/gono_seed1.csv

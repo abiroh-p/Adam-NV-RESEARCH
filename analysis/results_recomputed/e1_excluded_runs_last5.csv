@@ -1,0 +1,2 @@
+optimizer,seed,reason,file
+gono,1,incomplete run (59 rows; missing epochs [60]; unexpected epochs []; expected 1..60),adam-nv/e1_convergence/logs/gono_seed1.csv

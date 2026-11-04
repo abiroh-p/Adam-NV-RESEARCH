@@ -1,0 +1,163 @@
+$ /home/claude/venv/bin/python tools/run_all_tests.py -v
+(cwd=.)
+
+
+=== top-level tests/ (cwd=.) ===
+csv files examined: 3
+  DUPLICATE_EPOCHS                   1
+  INCOMPLETE                         1
+  OK                                 1
+  per-epoch runs without a metadata sidecar: 3
+  [DUPLICATE_EPOCHS] logs/dup_seed2.csv  logs/dup_seed2.csv: duplicated epochs [3]
+  [INCOMPLETE] logs/short_seed1.csv  incomplete run (59 rows; missing epochs [60]; unexpected epochs []; expected 1..60)
+csv files examined: 2
+  INCOMPLETE                         1
+  OK                                 1
+  per-epoch runs without a metadata sidecar: 1
+  [INCOMPLETE] zip:outer.zip>deep/inner.zip>logs/short_seed1.csv  incomplete run (58 rows; missing epochs [59, 60]; unexpected epochs []; expected 1..60)
+csv files examined: 1
+  EXCLUDED_AUXILIARY                 1
+  per-epoch runs without a metadata sidecar: 0
+metric=last5  use_supplement=False
+optimizer  n_seeds   mean  sd_ddof1  used_supplement
+     adam        4 0.7335   0.00129            False
+  adam_nv        4 0.7335   0.00129            False
+     gono        4 0.6835   0.00129            False
+        comparison  n_pairs  complete  mean_difference_percentage_points  ci95_low  ci95_high  p_paired_t_raw  p_sign_flip_exact  p_paired_t_holm_within_family
+adam_nv minus adam        4     False                                0.0      0.00       0.00             NaN              1.000                            0.0
+   gono minus adam        4     False                               -5.0     -0.05      -0.05             0.0              0.125                            0.0
+adam_nv minus gono        4     False                                5.0      0.05       0.05             0.0              0.125                            0.0
+outputs in /tmp/tmpvo65ll9f/out
+metric=last5  use_supplement=False
+optimizer  n_seeds   mean  sd_ddof1  used_supplement
+     adam        4 0.7335   0.00129            False
+  adam_nv        4 0.7335   0.00129            False
+     gono        4 0.6835   0.00129            False
+        comparison  n_pairs  complete  mean_difference_percentage_points  ci95_low  ci95_high  p_paired_t_raw  p_sign_flip_exact  p_paired_t_holm_within_family
+adam_nv minus adam        4     False                                0.0      0.00       0.00             NaN              1.000                            0.0
+   gono minus adam        4     False                               -5.0     -0.05      -0.05             0.0              0.125                            0.0
+adam_nv minus gono        4     False                                5.0      0.05       0.05             0.0              0.125                            0.0
+outputs in /tmp/tmprfuzc01r/out
+ERROR: rerun /tmp/tmpssw21gio/rerun/gono_seed1.csv disagrees with the incomplete original (max diff 0.010000000000000009); refusing to merge
+metric=last5  use_supplement=False
+optimizer  n_seeds    mean  sd_ddof1  used_supplement
+     adam        4 0.73350   0.00129            False
+  adam_nv        4 0.73350   0.00129            False
+     gono        3 0.68367   0.00153            False
+EXCLUDED gono seed 1: incomplete run (59 rows; missing epochs [60]; unexpected epochs []; expected 1..60)
+        comparison  n_pairs  complete  mean_difference_percentage_points  ci95_low  ci95_high  p_paired_t_raw  p_sign_flip_exact  p_paired_t_holm_within_family
+adam_nv minus adam        4     False                                0.0      0.00       0.00             NaN               1.00                            0.0
+   gono minus adam        3     False                               -5.0     -0.05      -0.05             0.0               0.25                            0.0
+adam_nv minus gono        3     False                                5.0      0.05       0.05             0.0               0.25                            0.0
+outputs in /tmp/tmp41l8d7do/out
+
+=== nested adam-nv/tests/ (cwd=adam-nv) ===
+
+--- stderr ---
+test_decoupled_noise_buffer_does_not_change_update_v_decay (test_adam_nv.AdamNVTest.test_decoupled_noise_buffer_does_not_change_update_v_decay) ... ok
+test_gamma_zero_matches_torch_adam (test_adam_nv.AdamNVTest.test_gamma_zero_matches_torch_adam) ... ok
+test_response_modes_move_beta1_in_opposite_directions (test_adam_nv.AdamNVTest.test_response_modes_move_beta1_in_opposite_directions) ... ok
+test_constant (test_noise_schedules.NoiseScheduleTest.test_constant) ... ok
+test_intermittent_starts_clean (test_noise_schedules.NoiseScheduleTest.test_intermittent_starts_clean) ... ok
+test_phased_has_clean_noisy_clean_blocks (test_noise_schedules.NoiseScheduleTest.test_phased_has_clean_noisy_clean_blocks) ... ok
+test_base_bias_correction_is_a_distinct_ablation (test_repair_optimizer.AdamNVRepairTests.test_base_bias_correction_is_a_distinct_ablation) ... ok
+test_beta1_stays_within_bounds_and_state_is_per_element (test_repair_optimizer.AdamNVRepairTests.test_beta1_stays_within_bounds_and_state_is_per_element) ... ok
+test_first_step_bias_correction_is_exact (test_repair_optimizer.AdamNVRepairTests.test_first_step_bias_correction_is_exact) ... ok
+test_fixed_beta1_matches_torch_adam (test_repair_optimizer.AdamNVRepairTests.test_fixed_beta1_matches_torch_adam) ... ok
+test_float32_path_is_finite_over_many_steps (test_repair_optimizer.AdamNVRepairTests.test_float32_path_is_finite_over_many_steps) ... ok
+test_gamma_zero_equals_torch_adam_within_clamp_horizon (test_repair_optimizer.AdamNVRepairTests.test_gamma_zero_equals_torch_adam_within_clamp_horizon) ... ok
+test_gamma_zero_long_horizon_deviation_is_small_but_documented (test_repair_optimizer.AdamNVRepairTests.test_gamma_zero_long_horizon_deviation_is_small_but_documented) ... ok
+test_golden_regression_values (test_repair_optimizer.AdamNVRepairTests.test_golden_regression_values) ... ok
+test_gradient_tensor_is_not_modified_by_weight_decay (test_repair_optimizer.AdamNVRepairTests.test_gradient_tensor_is_not_modified_by_weight_decay) ... ok
+test_huge_and_tiny_gradients_stay_finite (test_repair_optimizer.AdamNVRepairTests.test_huge_and_tiny_gradients_stay_finite) ... ok
+test_matches_independent_reference_distrust_many_steps (test_repair_optimizer.AdamNVRepairTests.test_matches_independent_reference_distrust_many_steps) ... ok
+test_matches_independent_reference_smooth_mode (test_repair_optimizer.AdamNVRepairTests.test_matches_independent_reference_smooth_mode) ... ok
+test_matches_reference_with_weightless_gamma_and_alpha_variants (test_repair_optimizer.AdamNVRepairTests.test_matches_reference_with_weightless_gamma_and_alpha_variants) ... ok
+test_missing_gradient_is_skipped_and_creates_no_state (test_repair_optimizer.AdamNVRepairTests.test_missing_gradient_is_skipped_and_creates_no_state) ... ok
+test_old_and_new_versions_are_bit_identical_at_default_settings (test_repair_optimizer.AdamNVRepairTests.test_old_and_new_versions_are_bit_identical_at_default_settings) ... ok
+test_param_groups_use_their_own_hyperparameters (test_repair_optimizer.AdamNVRepairTests.test_param_groups_use_their_own_hyperparameters) ... ok
+test_running_product_equals_beta_power_when_gamma_zero (test_repair_optimizer.AdamNVRepairTests.test_running_product_equals_beta_power_when_gamma_zero) ... ok
+test_weight_decay_is_coupled_l2_like_torch_adam (test_repair_optimizer.AdamNVRepairTests.test_weight_decay_is_coupled_l2_like_torch_adam) ... ok
+test_zero_gradients_never_produce_nan (test_repair_optimizer.AdamNVRepairTests.test_zero_gradients_never_produce_nan) ... ok
+test_check_logs_strict_fails_on_unarchived_hash_and_warn_passes (test_repair_tools.DocumentationAndCheckLogsTests.test_check_logs_strict_fails_on_unarchived_hash_and_warn_passes) ... ok
+test_check_logs_strict_passes_a_run_whose_hashes_are_archived (test_repair_tools.DocumentationAndCheckLogsTests.test_check_logs_strict_passes_a_run_whose_hashes_are_archived) ... ok
+test_file_paths_named_in_docs_exist (test_repair_tools.DocumentationAndCheckLogsTests.test_file_paths_named_in_docs_exist) ... ok
+test_unbalanced_arm_is_flagged_and_strict_mode_fails (test_repair_tools.Exp07SeedBalanceTest.test_unbalanced_arm_is_flagged_and_strict_mode_fails) ... ok
+test_only_the_documented_claims_are_not_matches (test_repair_tools.PaperDraftCheckStateTest.test_only_the_documented_claims_are_not_matches) ... ok
+test_exact_match (test_repair_tools.ProvenanceToolTests.test_exact_match) ... ok
+test_folder_level_hash_file_covers_hashless_metadata_only_when_all_claims_verify (test_repair_tools.ProvenanceToolTests.test_folder_level_hash_file_covers_hashless_metadata_only_when_all_claims_verify) ... ok
+test_line_ending_variant_is_eol_normalized_not_exact (test_repair_tools.ProvenanceToolTests.test_line_ending_variant_is_eol_normalized_not_exact) ... ok
+test_one_changed_byte_is_detected (test_repair_tools.ProvenanceToolTests.test_one_changed_byte_is_detected) ... ok
+test_renamed_file_is_flagged_not_hidden (test_repair_tools.ProvenanceToolTests.test_renamed_file_is_flagged_not_hidden) ... ok
+test_verify_walks_directories_and_nested_zips_and_reports_missing_hash (test_repair_tools.ProvenanceToolTests.test_verify_walks_directories_and_nested_zips_and_reports_missing_hash) ... ok
+test_wrong_label_in_archive_is_rejected (test_repair_tools.ProvenanceToolTests.test_wrong_label_in_archive_is_rejected) ... ok
+test_every_archived_file_matches_registry (test_repair_tools.RepoProvenanceTests.test_every_archived_file_matches_registry) ... ok
+test_known_unverified_hashes_are_still_reported_unverified (test_repair_tools.RepoProvenanceTests.test_known_unverified_hashes_are_still_reported_unverified) ... ok
+test_check_runs_cli_flags_problems_and_strict_exit (test_repair_tools.RunIntegrityTests.test_check_runs_cli_flags_problems_and_strict_exit) ... ok
+test_complete_run_loads (test_repair_tools.RunIntegrityTests.test_complete_run_loads) ... ok
+test_final_epoch_and_last5_are_different_quantities (test_repair_tools.RunIntegrityTests.test_final_epoch_and_last5_are_different_quantities) ... ok
+test_gap_duplicate_nan_detected (test_repair_tools.RunIntegrityTests.test_gap_duplicate_nan_detected) ... ok
+test_missing_last_epoch_detected (test_repair_tools.RunIntegrityTests.test_missing_last_epoch_detected) ... ok
+test_supplement_is_opt_in_fills_only_missing_epoch_and_never_overwrites (test_repair_tools.RunIntegrityTests.test_supplement_is_opt_in_fills_only_missing_epoch_and_never_overwrites) ... ok
+test_supplement_not_applied_to_a_different_file (test_repair_tools.RunIntegrityTests.test_supplement_not_applied_to_a_different_file) ... ok
+test_check_seed_balance_function (test_repair_tools.SeedGuardAcrossExperimentScriptsTests.test_check_seed_balance_function) ... ok
+test_exp12_and_exp09_warn_and_fail_strict_on_missing_seeds (test_repair_tools.SeedGuardAcrossExperimentScriptsTests.test_exp12_and_exp09_warn_and_fail_strict_on_missing_seeds) ... ok
+test_committed_recomputed_tables_match_a_fresh_recomputation (test_repair_tools.StatisticsIntegrityTests.test_committed_recomputed_tables_match_a_fresh_recomputation)
+Table-value consistency: results_recomputed/*.csv must equal what the code gives on the logs. ... ok
+test_exact_sign_flip_known_values (test_repair_tools.StatisticsIntegrityTests.test_exact_sign_flip_known_values) ... ok
+test_holm_known_values_and_monotonicity (test_repair_tools.StatisticsIntegrityTests.test_holm_known_values_and_monotonicity) ... ok
+test_incomplete_run_is_refused_by_analysis_loader (test_repair_tools.StatisticsIntegrityTests.test_incomplete_run_is_refused_by_analysis_loader) ... ok
+test_metric_switch_changes_the_computed_quantity (test_repair_tools.StatisticsIntegrityTests.test_metric_switch_changes_the_computed_quantity) ... ok
+test_pairing_uses_matching_seeds_and_reports_unpaired (test_repair_tools.StatisticsIntegrityTests.test_pairing_uses_matching_seeds_and_reports_unpaired) ... ok
+test_percentage_point_conversion (test_repair_tools.StatisticsIntegrityTests.test_percentage_point_conversion) ... ok
+test_recomputed_table_marks_all_rows_complete_with_expected_pair_counts (test_repair_tools.StatisticsIntegrityTests.test_recomputed_table_marks_all_rows_complete_with_expected_pair_counts) ... ok
+test_single_pair_is_rejected (test_repair_tools.StatisticsIntegrityTests.test_single_pair_is_rejected) ... ok
+test_check_runs_looks_inside_nested_zips (test_repair_tools.ZipScanAndRerunPolicyTests.test_check_runs_looks_inside_nested_zips) ... ok
+test_complete_original_always_wins_over_a_rerun (test_repair_tools.ZipScanAndRerunPolicyTests.test_complete_original_always_wins_over_a_rerun) ... ok
+test_complete_rerun_replaces_incomplete_original_after_consistency_check (test_repair_tools.ZipScanAndRerunPolicyTests.test_complete_rerun_replaces_incomplete_original_after_consistency_check) ... ok
+test_inconsistent_rerun_is_refused_not_merged (test_repair_tools.ZipScanAndRerunPolicyTests.test_inconsistent_rerun_is_refused_not_merged) ... ok
+test_known_superseded_original_and_complete_rerun_in_real_repo (test_repair_tools.ZipScanAndRerunPolicyTests.test_known_superseded_original_and_complete_rerun_in_real_repo) ... ok
+test_without_rerun_the_incomplete_run_is_excluded_and_listed (test_repair_tools.ZipScanAndRerunPolicyTests.test_without_rerun_the_incomplete_run_is_excluded_and_listed) ... ok
+test_unversioned_log_is_rejected (test_response_lag_protocol.ResponseLagProtocolTest.test_unversioned_log_is_rejected) ... ok
+test_v2_log_is_accepted (test_response_lag_protocol.ResponseLagProtocolTest.test_v2_log_is_accepted) ... ok
+test_diagnostics_step_scheduler_once_per_epoch (test_scheduler_placement.SchedulerPlacementTest.test_diagnostics_step_scheduler_once_per_epoch) ... ok
+test_holm_is_monotone_in_sorted_p_values (test_statistics.StatisticsTest.test_holm_is_monotone_in_sorted_p_values) ... ok
+test_sign_flip_pvalue_is_one_for_zero_mean_symmetric_pair (test_statistics.StatisticsTest.test_sign_flip_pvalue_is_one_for_zero_mean_symmetric_pair) ... ok
+
+----------------------------------------------------------------------
+Ran 68 tests in 14.670s
+
+OK
+test_base_correction_differs_when_controller_is_active (test_adam_nv_variants.BiasCorrectionOptionTest.test_base_correction_differs_when_controller_is_active) ... /home/claude/venv/lib/python3.12/site-packages/torch/utils/_contextlib.py:116: RuntimeWarning: Adam-NV: P (running product of beta_1) is approaching the underflow floor. This is expected with low beta_min over many steps. Bias correction is clamped and stable.
+  return func(*args, **kwargs)
+ok
+test_base_correction_with_gamma_zero_matches_torch_adam (test_adam_nv_variants.BiasCorrectionOptionTest.test_base_correction_with_gamma_zero_matches_torch_adam) ... ok
+test_default_equals_explicit_running_product (test_adam_nv_variants.BiasCorrectionOptionTest.test_default_equals_explicit_running_product) ... ok
+test_invalid_value_rejected (test_adam_nv_variants.BiasCorrectionOptionTest.test_invalid_value_rejected) ... ok
+test_e1_and_e2_adam_nv_are_identical (test_adam_nv_variants.CopyConsistencyTest.test_e1_and_e2_adam_nv_are_identical) ... ok
+test_gamma_zero_running_product_matches_torch_adam (test_exp06_controls.GammaZeroDefaultMatchesAdamTest.test_gamma_zero_running_product_matches_torch_adam) ... ok
+test_fixed_beta1_matches_torch_adam (test_exp07_fixed_beta1.FixedBeta1MatchesAdamTest.test_fixed_beta1_matches_torch_adam) ... ok
+test_distribution_log_is_written_at_the_requested_cadence (test_exp11_shuffle.AdamNVShuffleTest.test_distribution_log_is_written_at_the_requested_cadence) ... ok
+test_fixed_reuses_one_permutation_and_step_draws_new_ones (test_exp11_shuffle.AdamNVShuffleTest.test_fixed_reuses_one_permutation_and_step_draws_new_ones) ... ok
+test_gamma_zero_makes_every_mode_identical (test_exp11_shuffle.AdamNVShuffleTest.test_gamma_zero_makes_every_mode_identical) ... ok
+test_invalid_arguments_rejected (test_exp11_shuffle.AdamNVShuffleTest.test_invalid_arguments_rejected) ... ok
+test_modes_preserve_the_beta1_multiset_within_a_tensor (test_exp11_shuffle.AdamNVShuffleTest.test_modes_preserve_the_beta1_multiset_within_a_tensor) ... ok
+test_none_is_bit_identical_to_adam_nv (test_exp11_shuffle.AdamNVShuffleTest.test_none_is_bit_identical_to_adam_nv) ... ok
+test_shuffle_changes_the_trajectory_and_is_reproducible (test_exp11_shuffle.AdamNVShuffleTest.test_shuffle_changes_the_trajectory_and_is_reproducible) ... ok
+test_beta1_always_within_bounds (test_gono.GONOTest.test_beta1_always_within_bounds) ... ok
+test_consistent_gradients_hit_upper_bound (test_gono.GONOTest.test_consistent_gradients_hit_upper_bound) ... ok
+test_exact_correction_lam_zero_matches_torch_adam (test_gono.GONOTest.test_exact_correction_lam_zero_matches_torch_adam) ... ok
+test_exact_correction_recovers_constant_gradient_base_does_not (test_gono.GONOTest.test_exact_correction_recovers_constant_gradient_base_does_not) ... ok
+test_first_step_uses_base_beta1 (test_gono.GONOTest.test_first_step_uses_base_beta1) ... ok
+test_global_scope_shares_one_beta1_tensor_scope_does_not (test_gono.GONOTest.test_global_scope_shares_one_beta1_tensor_scope_does_not) ... ok
+test_invalid_arguments_rejected (test_gono.GONOTest.test_invalid_arguments_rejected) ... ok
+test_invalid_bias_correction_rejected (test_gono.GONOTest.test_invalid_bias_correction_rejected) ... ok
+test_lam_zero_matches_torch_adam_both_scopes (test_gono.GONOTest.test_lam_zero_matches_torch_adam_both_scopes) ... ok
+test_matches_independent_reference_tensor_scope (test_gono.GONOTest.test_matches_independent_reference_tensor_scope) ... ok
+test_oscillating_gradients_lower_beta1 (test_gono.GONOTest.test_oscillating_gradients_lower_beta1) ... ok
+test_zero_gradient_does_not_produce_nan (test_gono.GONOTest.test_zero_gradient_does_not_produce_nan) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 1.773s
+
+OK

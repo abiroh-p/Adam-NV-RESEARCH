@@ -1,0 +1,4 @@
+$ /home/claude/venv/bin/python -c import sys; sys.path[:0]=['analysis','tools']; import run_io, provenance; import importlib.util as u; [u.spec_from_file_location('m',p).loader.exec_module(u.module_from_spec(u.spec_from_file_location('m',p))) for p in ('analysis/analyze_e1.py','analysis/analyze_e13_e15.py','tools/check_runs.py')]; print('imports ok')
+(cwd=.)
+
+imports ok

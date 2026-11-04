@@ -1,0 +1,6 @@
+$ /home/claude/venv/bin/python check_logs.py --log-dir ../logs --optimizers gono --seeds 0 --expect-torch  --expect-torchvision 
+(cwd=adam-nv/e1_convergence/src)
+
+[FAIL] gono_seed0: code_sha256[adam_nv.py]=969712867050 UNVERIFIED_NOT_ARCHIVED; code_sha256[gono.py]=82665f3c0bed UNVERIFIED_NOT_ARCHIVED; code_sha256[train_resnet.py]=7b5134fd2472 UNVERIFIED_NOT_ARCHIVED
+
+1 problem run(s)
