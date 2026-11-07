@@ -1,6 +1,6 @@
 # Manifest
 
-852 files, 23.6 MB (excluding this manifest and its checksum file).
+852 files, 23.5 MB (excluding this manifest and its checksum file).
 
 Verify every file with `sha256sum -c MANIFEST.sha256` from the repository root (it writes OK for each file).
 
