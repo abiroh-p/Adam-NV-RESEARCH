@@ -1,6 +1,13 @@
 {
   "entries": [
     {
+      "archived_as": "provenance/source_archive/adam_const_subset.py@438b8eba",
+      "bytes": 2442,
+      "file_name": "adam_const_subset.py",
+      "sha256": "438b8ebab22a4defe6252e3e345ed1327e0ef1c985ef4050b92e37a384145170",
+      "sha256_lf_normalized": "438b8ebab22a4defe6252e3e345ed1327e0ef1c985ef4050b92e37a384145170"
+    },
+    {
       "archived_as": "provenance/source_archive/adam_nv.py@2d6cd7df",
       "bytes": 18821,
       "file_name": "adam_nv.py",
@@ -20,6 +27,20 @@
       "file_name": "adam_nv_shuffle.py",
       "sha256": "8e4df34c4df6b65baabc9cbabda7ebb1e33fcbb6afc0389cfd5a02b6a9b5d684",
       "sha256_lf_normalized": "8e4df34c4df6b65baabc9cbabda7ebb1e33fcbb6afc0389cfd5a02b6a9b5d684"
+    },
+    {
+      "archived_as": "provenance/source_archive/adam_nv_subset.py@868a4d4b",
+      "bytes": 2164,
+      "file_name": "adam_nv_subset.py",
+      "sha256": "868a4d4be6c7c18fcc0223e6774efd885fee66d2e6a2fbd29d6044edf79e3c5f",
+      "sha256_lf_normalized": "868a4d4be6c7c18fcc0223e6774efd885fee66d2e6a2fbd29d6044edf79e3c5f"
+    },
+    {
+      "archived_as": "provenance/source_archive/adam_nv_tensormean.py@73528a53",
+      "bytes": 2480,
+      "file_name": "adam_nv_tensormean.py",
+      "sha256": "73528a537c78301b453bd4fa29020587c548235c8d6f03ae2dae8712a20ffc06",
+      "sha256_lf_normalized": "73528a537c78301b453bd4fa29020587c548235c8d6f03ae2dae8712a20ffc06"
     },
     {
       "archived_as": "provenance/source_archive/benchmark_optimizer_overhead_v2.py@fb71196a",
@@ -50,11 +71,32 @@
       "sha256_lf_normalized": "326bcedc828f24bf2e1a12f1035cb6c4b0d9f2dc8d52f4dab0f76aed9bd9eb98"
     },
     {
+      "archived_as": "provenance/source_archive/models_alt.py@2dff7071",
+      "bytes": 2962,
+      "file_name": "models_alt.py",
+      "sha256": "2dff70715b3409551c83470441d9f60d775a4bbba5bd9e9444393a0d7379b2f7",
+      "sha256_lf_normalized": "2dff70715b3409551c83470441d9f60d775a4bbba5bd9e9444393a0d7379b2f7"
+    },
+    {
       "archived_as": "provenance/source_archive/noise.py@eee61201",
       "bytes": 7646,
       "file_name": "noise.py",
       "sha256": "eee61201d59319039309a46d552932efc862d16b4ae1c8e43c44d6e9d8af34d8",
       "sha256_lf_normalized": "ca58985147f006088dc987ca8466fa59138e53b5acf0c001f02fc4703c34f989"
+    },
+    {
+      "archived_as": "provenance/source_archive/noise_proxy_diagnostic.py@35c53769",
+      "bytes": 9890,
+      "file_name": "noise_proxy_diagnostic.py",
+      "sha256": "35c537693dd2eabac67d54ad4ef7e7d9cb35e017b4cf1f3953f3318c2f10e147",
+      "sha256_lf_normalized": "35c537693dd2eabac67d54ad4ef7e7d9cb35e017b4cf1f3953f3318c2f10e147"
+    },
+    {
+      "archived_as": "provenance/source_archive/noise_proxy_diagnostic_v2.py@55f2a717",
+      "bytes": 15049,
+      "file_name": "noise_proxy_diagnostic_v2.py",
+      "sha256": "55f2a71750d2d86ebf9bab22ec20c4b9e31f880806d6b6fc6921d00ed0f9c234",
+      "sha256_lf_normalized": "55f2a71750d2d86ebf9bab22ec20c4b9e31f880806d6b6fc6921d00ed0f9c234"
     },
     {
       "archived_as": "provenance/source_archive/noise_schedule.py@90e11e2c",
@@ -71,11 +113,39 @@
       "sha256_lf_normalized": "242e6a7711ea049573224f3dc917ddb709e823cbe256ae48fee7a12a2c7522e4"
     },
     {
+      "archived_as": "provenance/source_archive/part_b_resnet_v8_arch.py@c27b3992",
+      "bytes": 2015,
+      "file_name": "part_b_resnet_v8_arch.py",
+      "sha256": "c27b3992e6e7b55a01820d57d191c4651bcb2940586aa0b31324f37f61868154",
+      "sha256_lf_normalized": "c27b3992e6e7b55a01820d57d191c4651bcb2940586aa0b31324f37f61868154"
+    },
+    {
+      "archived_as": "provenance/source_archive/part_b_resnet_v8_constsubset.py@d735fe9c",
+      "bytes": 2704,
+      "file_name": "part_b_resnet_v8_constsubset.py",
+      "sha256": "d735fe9c1682f94d45456238113bd14c245041842638af5d44cfc4185e61259e",
+      "sha256_lf_normalized": "d735fe9c1682f94d45456238113bd14c245041842638af5d44cfc4185e61259e"
+    },
+    {
       "archived_as": "provenance/source_archive/part_b_resnet_v8_shuffle.py@b8612dff",
       "bytes": 3251,
       "file_name": "part_b_resnet_v8_shuffle.py",
       "sha256": "b8612dfff62d8d2b6064fed948e1996c74eb0674b2c2215c6a9d1dc09306eaf8",
       "sha256_lf_normalized": "b8612dfff62d8d2b6064fed948e1996c74eb0674b2c2215c6a9d1dc09306eaf8"
+    },
+    {
+      "archived_as": "provenance/source_archive/part_b_resnet_v8_subset.py@ce3cbb69",
+      "bytes": 2577,
+      "file_name": "part_b_resnet_v8_subset.py",
+      "sha256": "ce3cbb69453becd93d78b5f40076fdde993d31175bb15a6d851515d1d691d877",
+      "sha256_lf_normalized": "ce3cbb69453becd93d78b5f40076fdde993d31175bb15a6d851515d1d691d877"
+    },
+    {
+      "archived_as": "provenance/source_archive/part_b_resnet_v8_tensormean.py@c3def40d",
+      "bytes": 3467,
+      "file_name": "part_b_resnet_v8_tensormean.py",
+      "sha256": "c3def40de2b87a60cd8ccecfa12819b7faa70bb738c67275f3694c9f8792efc4",
+      "sha256_lf_normalized": "c3def40de2b87a60cd8ccecfa12819b7faa70bb738c67275f3694c9f8792efc4"
     },
     {
       "archived_as": "provenance/source_archive/train_resnet.py@2ab3aa02",
