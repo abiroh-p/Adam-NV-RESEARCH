@@ -1,7 +1,7 @@
 # Adam-NV: a controlled negative-result study
 
 Code, logs, run books, pre-registered decision rules and verification scripts for the paper
-**"Does Noise-Adaptive Momentum Help? A Controlled Negative-Result Study of Adam-NV"**.
+**"Adam-NV Under Label Noise: A Controlled Study of Memorization, with a Negative Result on Accuracy"**.
 
 Everything the paper reports can be recomputed from the raw logs stored here, without a GPU:
 
